@@ -14,7 +14,7 @@ namespace RestauranteApi.Controllers
             string json = JsonConvert.SerializeObject(new List<int>() { 1, 2, 3 });
             return json;
         }
-        public string listar()
+        public string listar(int mesa)
         {
             List<Pedido> pedidos = new List<Pedido>();
             Pedido pedido = new Pedido();

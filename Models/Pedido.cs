@@ -48,7 +48,35 @@ namespace RestauranteApi.Models
         public List<Pedido> listar()
         {
             ClasseConexao c = new ClasseConexao();
-            SQL = " SELECT NUMERO_PEDIDO, HORA_DATA_PEDIDO from PEDIDO WHERE NUMERO_MESA = '1'";
+            SQL = " SELECT NUMERO_PEDIDO, HORA_DATA_PEDIDO from PEDIDO";
+
+            OracleDataReader dr = c.ExecutarComandoRetorno(SQL);
+
+            List<Pedido> retorno = new List<Pedido>();
+            if (dr.HasRows)
+            {
+                //dr.GetName(1);
+                while (dr.Read())
+                {
+                    Pedido p = new Pedido();
+                    p.id = (int)dr["NUMERO_PEDIDO"];
+                    p.data = (string)dr["HORA_DATA_PEDIDO"].ToString();
+                    retorno.Add(p);
+                    //dr.NextResult();
+                }
+            }
+
+            return retorno;
+
+        }
+        public List<Pedido> getByMesa(int idmesa)
+        {
+            mesa = new Models.Mesa()
+            {
+                id = idmesa
+            };
+            ClasseConexao c = new ClasseConexao();
+            SQL = " SELECT NUMERO_PEDIDO, HORA_DATA_PEDIDO from PEDIDO WHERE NUMERO_MESA = '" + mesa.id + "'";
 
             OracleDataReader dr = c.ExecutarComandoRetorno(SQL);
 
