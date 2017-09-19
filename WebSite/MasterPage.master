@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Amatic SC", sans-serif;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC" />
+
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="w3-top w3-hide-small">
+                <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+                    <a href="Default.aspx" class="w3-bar-item w3-button">HOME</a>
+                    <a href="pratos.aspx" class="w3-bar-item w3-button">CARDÁPIO</a>
+                    <a href="Sobre nos.aspx" class="w3-bar-item w3-button">SOBRE NOS</a>
+                    <a href="Fale conosco.aspx" class="w3-bar-item w3-button">FALE CONOSCO</a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

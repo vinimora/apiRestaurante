@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterCardapio.master.cs" Inherits="MasterCardapio" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cardápio</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Amatic SC", sans-serif;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="w3-top w3-hide-small">
+                <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+                    <a href="Default.aspx" class="w3-bar-item w3-button">HOME</a>
+                    <a href="pratos.aspx" class="w3-bar-item w3-button">CARDÁPIO</a>
+                    <a href="Sobre nos.aspx" class="w3-bar-item w3-button">SOBRE NOS</a>
+                    <a href="Fale conosco.aspx" class="w3-bar-item w3-button">FALE CONOSCO</a>
+                </div>
+            </div>
+
+
+
+            <div style="background-image: url(imagens/sushi.jpg); background-repeat:no-repeat; background-size:100% 200%" alt="Lights">
+                <!--<img src="imagens/sushi.jpg" style="width: 1420px; height: 600px" />-->
+
+                <div class="w3-display-container">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div class="w3-display-middle w3-large">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <h1 class="w3-center w3-jumbo" style="font-size: 44px; color: white">Cardápio</h1>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="w3-row w3-center w3-border w3-border-black" style="font-size: 22px; height: 60px;">
+                    <a href="pratos.aspx" id="myLink">
+                        <div class="w3-col s4 w3-white tablink w3-padding-large w3-hover-red">
+                            Pratos
+
+                        </div>
+                    </a>
+                    <a href="acompanhamento.aspx" onclick="openMenu(event, 'Acompanhamentos');">
+                        <div class="w3-col s4  w3-white tablink w3-padding-large w3-hover-red">Acompanhamentos</div>
+                    </a>
+                    <a href="sobremesas.aspx" onclick="openMenu(event, 'Sobremesas');">
+                        <div class="w3-col w3-white s4 tablink w3-padding-large w3-hover-red">Sobremesas</div>
+                    </a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
