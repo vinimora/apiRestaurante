@@ -1,0 +1,37 @@
+﻿@font-face {
+    font-family: 'Zenzai-Itachi';
+    src: url('/fonts/Zenzai_Itachi.ttf');
+}
+header.masthead {
+  background: url('/Content/img/sushi10.jpg') no-repeat center center scroll;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+header.masthead {
+    
+    font-family: 'Amatic SC', cursive;
+}
+header.masthead .display-1 {
+    color: #fff;
+    font-family: Zenzai-Itachi;
+    font-size: 98px;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgb(204, 0, 0);
+}
+header.masthead .display-4 {
+    font-size: 4.6em;
+    margin-bottom: -50px;
+    margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 10rem 0;
+  }
+}
