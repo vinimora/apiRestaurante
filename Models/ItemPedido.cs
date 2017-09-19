@@ -6,6 +6,7 @@
         public Pedido pedido { get; set; }
         public string nome { get; set; }
         public float valor { get; set; }
+        public int quantidade { get; set; }
 
         public ItemPedido(int id)
         {

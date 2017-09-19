@@ -7,9 +7,12 @@ using ApiRestaurante.DAO;
 using System.Globalization;
 using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
+using Newtonsoft.Json;
+
 namespace RestauranteApi.Models
 {
-
+    [Serializable]
+    [JsonObject(Title = "pedido")]
     public class Pedido
     {
 
@@ -25,23 +28,21 @@ namespace RestauranteApi.Models
         public Pedido()
         {
             //inicia mesa teste
-            mesa = new Mesa() { id = 1 };
-
+            //mesa = new Mesa() { id = 1 };
+            System.Web.HttpContext.Current.Session["sessionString"] = "string";
 
             data = DateTime.Now.ToString("dd-MMM-yyyy hh:mm:ss", new CultureInfo("en-US"));
         }
-        public void Incluir()
+        public void Incluir(int idmesa)
         {
-
+            mesa = new Mesa() { id = idmesa };
 
             // OracleConnection c = new OracleConnection();
+            ClasseConexao c = new ClasseConexao();
 
-                ClasseConexao c = new ClasseConexao();
-
-
-                SQL = " INSERT INTO sys.pedido(NUMERO_PEDIDO, numero_mesa, HORA_DATA_PEDIDO, STATUS_PEDIDO)" +
-                "VALUES(sequencePedidos.NEXTVAL,'" + mesa.id + "','" + data + "'," + status +")";
-                c.ExecutarComando(SQL);
+            SQL = " INSERT INTO sys.pedido(NUMERO_PEDIDO, numero_mesa, HORA_DATA_PEDIDO, STATUS_PEDIDO)" +
+            "VALUES(sequencePedidos.NEXTVAL,'" + mesa.id + "','" + data + "'," + status +")";
+            c.ExecutarComando(SQL);
                 
            
         }
