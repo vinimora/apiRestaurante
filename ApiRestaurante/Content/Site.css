@@ -2,6 +2,15 @@
 body {
   padding-top: 54px;
 }
+.navbar.fixed-top{
+    background-color: rgb(35, 0, 0);
+    font-family: "Amatic SC",cursive;
+    font-size: 1.8em;
+}
+.navbar.fixed-top .navbar-brand img {
+    height: 50px;
+    margin: -6px 0;
+}
 
 @media (min-width: 992px) {
   body {
