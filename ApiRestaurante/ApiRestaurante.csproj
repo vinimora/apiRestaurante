@@ -292,6 +292,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Site\Index.cshtml" />
+    <Content Include="Views\Site\SobreNos.cshtml" />
+    <Content Include="Views\Site\FaleConosco.cshtml" />
+    <Content Include="Views\Site\Cardapio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

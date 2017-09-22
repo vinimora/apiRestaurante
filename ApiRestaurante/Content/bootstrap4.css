@@ -684,7 +684,9 @@ pre code {
   width: auto;
   max-width: none;
 }
-
+.col-centered {
+    margin: auto;
+}
 .col-1 {
   -ms-flex: 0 0 8.333333%;
       flex: 0 0 8.333333%;
@@ -818,6 +820,9 @@ pre code {
 }
 
 @media (min-width: 576px) {
+  .col-sm-centered {
+      margin: auto;
+  }
   .col-sm {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -942,6 +947,9 @@ pre code {
 }
 
 @media (min-width: 768px) {
+    .col-md-centered {
+       margin: auto;
+   }
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1066,6 +1074,9 @@ pre code {
 }
 
 @media (min-width: 992px) {
+   .col-lg-centered {
+       margin: auto;
+   }
   .col-lg {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
