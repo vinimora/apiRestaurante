@@ -17,7 +17,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>@Attr.Title</title>
         @Styles.Render("~/Content/" + Attr.BundleCSS)
         @Scripts.Render("~/bundles/modernizr")
 
@@ -28,7 +28,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="">
+                <a class="navbar-brand" href="/">
                     <img src="~/Content/img/tabalato-logo-mini.png" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/">
                                 HOME
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -46,10 +46,10 @@
                             <a class="nav-link" href="#">CARDÁPIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE NÓS</a>
+                            <a class="nav-link" href="/sobre-nos">SOBRE NÓS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FALE CONOSCO</a>
+                            <a class="nav-link" href="/fale-conosco">FALE CONOSCO</a>
                         </li>
                     </ul>
                 </div>
@@ -59,11 +59,12 @@
         
 
         @RenderBody()
-        <hr />
+        <br />
+        <br />
         <!-- Footer -->
         <footer class="py-5 bg-dark">
             <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+                <p class="m-0 text-center text-white">Tabalato Restaurante e Sushi Bar - Av. Olávo Bilac, 47 - Km 18, Osasco - SP, 06190-150</p>
             </div>
             <!-- /.container -->
         </footer>

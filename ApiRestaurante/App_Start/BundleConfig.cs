@@ -29,7 +29,11 @@ namespace ApiRestaurante
                 "~/Scripts/bootstrap.js",
                 "~/Scripts/respond.js"
             ));
-
+            //fale-conosco
+            bundles.Add(new ScriptBundle("~/bundles/fale-conosco").Include(
+                "~/Scripts/jquery-{version}.js",
+                "~/Scripts/bootstrap.js"
+            ));
 
 
 
@@ -43,6 +47,12 @@ namespace ApiRestaurante
                       "~/Content/Site.css",
                       "~/Content/bootstrap4.css",
                       "~/Content/home.css"));
+
+            //fale-conosco
+            bundles.Add(new StyleBundle("~/Content/fale-conosco").Include(
+                     "~/Content/Site.css",
+                     "~/Content/bootstrap4.css",
+                     "~/Content/home.css"));
         }
     }
 }

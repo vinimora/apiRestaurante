@@ -247,3 +247,4 @@ E:\git-projects\apiRestaurante\ApiRestaurante\bin\Microsoft.Owin.Security.Micros
 E:\git-projects\apiRestaurante\ApiRestaurante\obj\Debug\ApiRestaurante.csprojResolveAssemblyReference.cache
 E:\git-projects\apiRestaurante\ApiRestaurante\obj\Debug\ApiRestaurante.dll
 E:\git-projects\apiRestaurante\ApiRestaurante\obj\Debug\ApiRestaurante.pdb
+E:\git-projects\apiRestaurante\ApiRestaurante\obj\Debug\ApiRestaurante.csproj.CoreCompileInputs.cache

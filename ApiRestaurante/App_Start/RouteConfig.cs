@@ -13,15 +13,21 @@ namespace ApiRestaurante
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //cada maproute é uma url, e ela manda para a controller, e a action é a funcao
             routes.MapRoute(
                 name: "Home site",
                 url: "",
                 defaults: new { controller = "Site", action = "Index" }
             );
+            routes.MapRoute(
+                name: "Fale Conosco site",
+                url: "fale-conosco",
+                defaults: new { controller = "Site", action = "FaleConosco" }
+            );
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
+                name: "API",
+                url: "api/{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }

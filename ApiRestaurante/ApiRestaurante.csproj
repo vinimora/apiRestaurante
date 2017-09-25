@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -218,6 +219,7 @@
     <Compile Include="Models\Retorno.cs" />
     <Compile Include="Models\Mesa.cs" />
     <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\SessaoSite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -226,7 +228,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap4.css" />
     <Content Include="Content\home.css" />
+    <Content Include="Content\img\chef.jpg" />
     <Content Include="Content\img\chines.jpg" />
+    <Content Include="Content\img\sushi.jpg" />
     <Content Include="Content\img\sushi10.jpg" />
     <Content Include="Content\img\tabalato-logo-mini.png" />
     <Content Include="Content\img\tabalato-logo.png" />

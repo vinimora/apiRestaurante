@@ -18,11 +18,13 @@ namespace ApiRestaurante.Controllers
             return View(Attr);
         }
 
-        public ActionResult About()
+        public ActionResult FaleConosco()
         {
-            ViewBag.Message = "Your application description page.";
+            PageAtributes Attr = new PageAtributes();
+            Attr.BundleCSS = "fale-conosco";
+            Attr.BundleScript = "fale-conosco";
 
-            return View();
+            return View(Attr);
         }
 
         public ActionResult Contact()
