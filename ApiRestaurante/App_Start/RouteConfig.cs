@@ -24,6 +24,11 @@ namespace ApiRestaurante
                 url: "fale-conosco",
                 defaults: new { controller = "Site", action = "FaleConosco" }
             );
+            routes.MapRoute(
+                name: "Sobre Nos site",
+                url: "sobre-nos",
+                defaults: new { controller = "Site", action = "SobreNos" }
+            );
 
             routes.MapRoute(
                 name: "API",

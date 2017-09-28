@@ -35,6 +35,13 @@ namespace ApiRestaurante
                 "~/Scripts/bootstrap.js"
             ));
 
+            //sobre-nos
+            bundles.Add(new ScriptBundle("~/bundles/sobre-nos").Include(
+                "~/Scripts/jquery-{version}.js",
+                "~/Scripts/bootstrap.js",
+                "~/Scripts/sobre-nos.js"
+            ));
+
 
 
 
@@ -53,6 +60,11 @@ namespace ApiRestaurante
                      "~/Content/Site.css",
                      "~/Content/bootstrap4.css",
                      "~/Content/home.css"));
+            //sobre-nos
+            bundles.Add(new StyleBundle("~/Content/sobre-nos").Include(
+                     "~/Content/Site.css",
+                     "~/Content/bootstrap4.css",
+                     "~/Content/sobre-nos.css"));
         }
     }
 }

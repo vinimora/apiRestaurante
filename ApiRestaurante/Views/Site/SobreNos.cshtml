@@ -1,10 +1,16 @@
-﻿<section>
+﻿<video poster="~/Content/img/sushi10.jpg" id="bgvid" playsinline autoplay muted loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="~/Content/video/bg-asian.mp4" type="video/mp4">
+</video>
+<div id="video-opacity"></div>
+<section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="p-5">
+            <div class="col-sm-10 col-md-8 col-centered">
+                <div class="p-5 text-center">
                     <h1 class="display-4">Sobre Nós</h1>
-                    <p class="display-2">
+                    <hr />
+                    <p class="display-5">
                         O Tabalato é um restaurante japonês
 
                         cuja proposta é conciliar a culinária tradicional e contemporânea,

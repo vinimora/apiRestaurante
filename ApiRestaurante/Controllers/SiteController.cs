@@ -26,12 +26,14 @@ namespace ApiRestaurante.Controllers
 
             return View(Attr);
         }
-
-        public ActionResult Contact()
+        
+        public ActionResult SobreNos()
         {
-            ViewBag.Message = "Your contact page.";
+            PageAtributes Attr = new PageAtributes();
+            Attr.BundleCSS = "sobre-nos";
+            Attr.BundleScript = "sobre-nos";
 
-            return View();
+            return View(Attr);
         }
     }
 }
