@@ -29,6 +29,11 @@ namespace ApiRestaurante
                 url: "sobre-nos",
                 defaults: new { controller = "Site", action = "SobreNos" }
             );
+            routes.MapRoute(
+                name: "Cardapio site",
+                url: "cardapio",
+                defaults: new { controller = "Site", action = "Cardapio" }
+            );
 
             routes.MapRoute(
                 name: "API",
