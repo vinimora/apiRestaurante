@@ -1,4 +1,47 @@
-﻿Pratos
+﻿@using RestauranteApi.Models
+
+@{ 
+    List<TipoProdutos> TipoCardapio = (List<TipoProdutos>)ViewBag.TipoCardapio;
+    List<Cardapio> ListCardapio = (List<Cardapio>)ViewBag.listCardapio;
+}
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-10 col-md-10 col-centered">
+                <div class="p-5 text-center">
+                    <h1 class="display-3">Cardapio</h1>
+                    <hr />
+                    <br />
+                    <br />
+                    @{
+                        foreach (TipoProdutos tipo in TipoCardapio)
+                        {
+                            <h2 class="display-4">@tipo.nome</h2>
+                            <p class="display-5">
+                                @tipo.descricao
+                            </p>
+                            <hr />
+                            <p class="display-5">
+                                    @foreach (Cardapio cardapio in ListCardapio.Where(ca=>ca.tipo.id.Equals(tipo.id)))
+                                    {
+                                    <div class="row produto-line">
+                                        <div class="col-5">@cardapio.nome</div>
+                                        <div class="col-7">@cardapio.ingredientes</div>
+                                    </div>
+                                    }
+                                <br />
+                                <br />
+                            </p>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@*Pratos
 Temaki dcsascacsce Salmão
 
 Salmão fresco, cebolinha, Nori(Alga Marinha), Arroz, Cream cheese.
@@ -61,4 +104,4 @@ SASHIMIS
 Macarrão Frito com Legumes, Carne e Frango
 Yakissoba
 
-Macarrão Frito com Legumes, Carne e Frango
+Macarrão Frito com Legumes, Carne e Frango*@
