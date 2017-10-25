@@ -1,0 +1,6623 @@
+﻿html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+#headerTopoPortal body {
+    margin: 0
+}
+
+#headerTopoPortal article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+#headerTopoPortal audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+    #headerTopoPortal audio:not([controls]) {
+        display: none;
+        height: 0
+    }
+
+#headerTopoPortal [hidden], template {
+    display: none
+}
+
+#headerTopoPortal a {
+    background-color: transparent
+}
+
+    #headerTopoPortal a:active, a:hover {
+        outline: 0
+    }
+
+#headerTopoPortal abbr[title] {
+    border-bottom: 1px dotted
+}
+
+#headerTopoPortal b, strong {
+    font-weight: bold
+}
+
+#headerTopoPortal dfn {
+    font-style: italic
+}
+
+#headerTopoPortal h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+#headerTopoPortal mark {
+    background: #ff0;
+    color: #000
+}
+
+#headerTopoPortal small {
+    font-size: 80%
+}
+
+#headerTopoPortal sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+#headerTopoPortal sup {
+    top: -.5em
+}
+
+#headerTopoPortal sub {
+    bottom: -.25em
+}
+
+#headerTopoPortal img {
+    border: 0
+}
+
+#headerTopoPortal svg:not(:root) {
+    overflow: hidden
+}
+
+#headerTopoPortal figure {
+    margin: 1em 40px
+}
+
+#headerTopoPortal hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+#headerTopoPortal pre {
+    overflow: auto
+}
+
+#headerTopoPortal code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+#headerTopoPortal button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+#headerTopoPortal button {
+    overflow: visible
+}
+
+#headerTopoPortal button, select {
+    text-transform: none
+}
+
+#headerTopoPortal button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+    #headerTopoPortal button[disabled], html input[disabled] {
+        cursor: default
+    }
+
+    #headerTopoPortal button::-moz-focus-inner, input::-moz-focus-inner {
+        border: 0;
+        padding: 0
+    }
+
+#headerTopoPortal input {
+    line-height: normal
+}
+
+    #headerTopoPortal input[type="checkbox"], input[type="radio"] {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0
+    }
+
+    #headerTopoPortal input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+        height: auto
+    }
+
+    #headerTopoPortal input[type="search"] {
+        -webkit-appearance: textfield;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box
+    }
+
+        #headerTopoPortal input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+#headerTopoPortal fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+#headerTopoPortal legend {
+    border: 0;
+    padding: 0
+}
+
+#headerTopoPortal textarea {
+    overflow: auto
+}
+
+#headerTopoPortal optgroup {
+    font-weight: bold
+}
+
+#headerTopoPortal table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+#headerTopoPortal td, th {
+    padding: 0
+}
+
+@media print {
+    *, *:before, *:after {
+        background: transparent !important;
+        color: #000 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+
+    #headerTopoPortal a, a:visited {
+        text-decoration: underline
+    }
+
+        #headerTopoPortal a[href]:after {
+            content: " (" attr(href) ")"
+        }
+
+    #headerTopoPortal abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+
+    #headerTopoPortal a[href^="#"]:after, a[href^="javascript:"]:after {
+        content: ""
+    }
+
+    #headerTopoPortal pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    #headerTopoPortal thead {
+        display: table-header-group
+    }
+
+    #headerTopoPortal tr, img {
+        page-break-inside: avoid
+    }
+
+    #headerTopoPortal img {
+        max-width: 100% !important
+    }
+
+    #headerTopoPortal p, h2, h3 {
+        orphans: 3;
+        widows: 3
+    }
+
+    #headerTopoPortal h2, h3 {
+        page-break-after: avoid
+    }
+
+    #headerTopoPortal .navbar {
+        display: none
+    }
+
+    #headerTopoPortal .btn > .caret, .dropup > .btn > .caret {
+        border-top-color: #000 !important
+    }
+
+    #headerTopoPortal .label {
+        border: 1px solid #000
+    }
+
+    #headerTopoPortal .table {
+        border-collapse: collapse !important
+    }
+
+        #headerTopoPortal .table td, .table th {
+            background-color: #fff !important
+        }
+
+    #headerTopoPortal .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd !important
+    }
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(http://localhost:52483/fonts/glyphicons-halflings-regular.eot);
+    src: url(http://localhost:52483/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(http://localhost:52483/fonts/glyphicons-halflings-regular.woff) format('woff'),url(http://localhost:52483/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(http://localhost:52483/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+#headerTopoPortal .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#headerTopoPortal .glyphicon-asterisk:before {
+    content: "*"
+}
+
+#headerTopoPortal .glyphicon-plus:before {
+    content: "+"
+}
+
+#headerTopoPortal .glyphicon-euro:before, .glyphicon-eur:before {
+    content: "€"
+}
+
+#headerTopoPortal .glyphicon-minus:before {
+    content: "−"
+}
+
+#headerTopoPortal .glyphicon-cloud:before {
+    content: "☁"
+}
+
+#headerTopoPortal .glyphicon-envelope:before {
+    content: "✉"
+}
+
+#headerTopoPortal .glyphicon-pencil:before {
+    content: "✏"
+}
+
+#headerTopoPortal .glyphicon-glass:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-music:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-search:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-heart:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-star:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-star-empty:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-user:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-film:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-th-large:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-th:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-th-list:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ok:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-remove:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-zoom-in:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-zoom-out:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-off:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-signal:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-cog:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-trash:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-home:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-file:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-time:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-road:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-download-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-download:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-upload:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-inbox:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-play-circle:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-repeat:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-refresh:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-list-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-lock:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-flag:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-headphones:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-volume-off:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-volume-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-volume-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-qrcode:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-barcode:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tag:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tags:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-book:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bookmark:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-print:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-camera:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-font:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bold:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-italic:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-text-height:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-text-width:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-align-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-align-center:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-align-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-align-justify:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-list:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-indent-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-indent-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-facetime-video:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-picture:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-map-marker:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-adjust:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tint:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-edit:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-share:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-check:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-move:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-step-backward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-fast-backward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-backward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-play:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-pause:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-stop:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-forward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-fast-forward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-step-forward:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-eject:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-chevron-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-chevron-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-plus-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-minus-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-remove-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ok-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-question-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-info-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-screenshot:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-remove-circle:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ok-circle:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ban-circle:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-arrow-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-arrow-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-arrow-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-arrow-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-share-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-resize-full:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-resize-small:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-exclamation-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-gift:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-leaf:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-fire:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-eye-open:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-eye-close:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-warning-sign:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-plane:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-calendar:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-random:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-comment:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-magnet:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-chevron-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-chevron-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-retweet:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-shopping-cart:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-folder-close:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-folder-open:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-resize-vertical:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-resize-horizontal:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hdd:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bullhorn:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bell:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-certificate:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-thumbs-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-thumbs-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hand-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hand-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hand-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hand-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-circle-arrow-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-circle-arrow-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-circle-arrow-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-circle-arrow-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-globe:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-wrench:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tasks:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-filter:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-briefcase:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-fullscreen:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-dashboard:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-paperclip:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-heart-empty:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-link:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-phone:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-pushpin:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-usd:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-gbp:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-alphabet:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-alphabet-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-order:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-order-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-attributes:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sort-by-attributes-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-unchecked:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-expand:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-collapse-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-collapse-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-log-in:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-flash:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-log-out:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-new-window:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-record:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-save:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-open:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-saved:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-import:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-export:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-send:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-floppy-disk:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-floppy-saved:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-floppy-remove:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-floppy-save:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-floppy-open:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-credit-card:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-transfer:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-cutlery:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-header:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-compressed:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-earphone:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-phone-alt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tower:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-stats:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sd-video:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hd-video:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-subtitles:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sound-stereo:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sound-dolby:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sound-5-1:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sound-6-1:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sound-7-1:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-copyright-mark:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-registration-mark:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-cloud-download:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-cloud-upload:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tree-conifer:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tree-deciduous:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-cd:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-save-file:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-open-file:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-level-up:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-copy:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-paste:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-alert:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-equalizer:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-king:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-queen:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-pawn:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bishop:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-knight:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-baby-formula:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-tent:before {
+    content: "⛺"
+}
+
+#headerTopoPortal .glyphicon-blackboard:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bed:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-apple:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-erase:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-hourglass:before {
+    content: "⌛"
+}
+
+#headerTopoPortal .glyphicon-lamp:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-duplicate:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-piggy-bank:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-scissors:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-bitcoin:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-btc:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-xbt:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-yen:before {
+    content: "¥"
+}
+
+#headerTopoPortal .glyphicon-jpy:before {
+    content: "¥"
+}
+
+#headerTopoPortal .glyphicon-ruble:before {
+    content: "₽"
+}
+
+#headerTopoPortal .glyphicon-rub:before {
+    content: "₽"
+}
+
+#headerTopoPortal .glyphicon-scale:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ice-lolly:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-ice-lolly-tasted:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-education:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-option-horizontal:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-option-vertical:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-menu-hamburger:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-modal-window:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-oil:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-grain:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-sunglasses:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-text-size:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-text-color:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-text-background:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-top:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-bottom:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-horizontal:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-vertical:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-object-align-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-triangle-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-triangle-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-triangle-bottom:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-triangle-top:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-console:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-superscript:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-subscript:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-menu-left:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-menu-right:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-menu-down:before {
+    content: ""
+}
+
+#headerTopoPortal .glyphicon-menu-up:before {
+    content: ""
+}
+
+#headerTopoPortal * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+    #headerTopoPortal *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+#headerTopoPortal html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+
+#headerTopoPortal body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #354a5f;
+    background-color: #fff
+}
+
+#headerTopoPortal input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+#headerTopoPortal a:not(.nt) {
+    color: #337ab7
+}
+
+    #headerTopoPortal a:not(.nt):hover {
+        color: #23527c
+    }
+
+#headerTopoPortal a.nt, a.nt:hover {
+    color: inherit
+}
+
+#headerTopoPortal a {
+    text-decoration: none
+}
+
+    #headerTopoPortal a:not(.not-decoration):not(.hover-mobile):hover, a:not(.not-decoration):not(.hover-mobile):focus {
+        text-decoration: underline
+    }
+
+@media(max-width:991px) {
+    a:not(.not-decoration):hover, a:not(.not-decoration):focus {
+        text-decoration: underline
+    }
+}
+
+#headerTopoPortal a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+#headerTopoPortal figure {
+    margin: 0
+}
+
+#headerTopoPortal img {
+    vertical-align: middle
+}
+
+#headerTopoPortal .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+#headerTopoPortal .img-rounded {
+    border-radius: 6px
+}
+
+#headerTopoPortal hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+#headerTopoPortal .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0
+}
+
+#headerTopoPortal .sr-only-focusable:active, .sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+#headerTopoPortal [role="button"] {
+    cursor: pointer
+}
+
+#headerTopoPortal h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+#headerTopoPortal h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+#headerTopoPortal h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#headerTopoPortal h1, .h1 {
+    font-size: 36px
+}
+
+#headerTopoPortal h2, .h2 {
+    font-size: 30px
+}
+
+#headerTopoPortal h3, .h3 {
+    font-size: 24px
+}
+
+#headerTopoPortal h4, .h4 {
+    font-size: 18px
+}
+
+#headerTopoPortal h5, .h5 {
+    font-size: 14px
+}
+
+#headerTopoPortal h6, .h6 {
+    font-size: 12px
+}
+
+#headerTopoPortal p {
+    margin: 0 0 10px
+}
+
+#headerTopoPortal .text-left {
+    text-align: left
+}
+
+#headerTopoPortal .text-right {
+    text-align: right
+}
+
+#headerTopoPortal .text-center {
+    text-align: center
+}
+
+#headerTopoPortal .text-justify {
+    text-align: justify
+}
+
+#headerTopoPortal .text-nowrap {
+    white-space: nowrap
+}
+
+#headerTopoPortal .text-lowercase {
+    text-transform: lowercase
+}
+
+#headerTopoPortal .text-uppercase {
+    text-transform: uppercase
+}
+
+#headerTopoPortal .text-capitalize {
+    text-transform: capitalize
+}
+
+#headerTopoPortal .page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+#headerTopoPortal ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+    #headerTopoPortal ul ul, ol ul, ul ol, ol ol {
+        margin-bottom: 0
+    }
+
+#headerTopoPortal .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 100%;
+        width: 1000px
+    }
+}
+
+@media(min-width:1220px) {
+    .container {
+        width: 1200px
+    }
+}
+
+#headerTopoPortal .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#headerTopoPortal .row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+#headerTopoPortal .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#headerTopoPortal .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left
+}
+
+#headerTopoPortal .col-xs-12 {
+    width: 100%
+}
+
+#headerTopoPortal .col-xs-11 {
+    width: 91.66666667%
+}
+
+#headerTopoPortal .col-xs-10 {
+    width: 83.33333333%
+}
+
+#headerTopoPortal .col-xs-9 {
+    width: 75%
+}
+
+#headerTopoPortal .col-xs-8 {
+    width: 66.66666667%
+}
+
+#headerTopoPortal .col-xs-7 {
+    width: 58.33333333%
+}
+
+#headerTopoPortal .col-xs-6 {
+    width: 50%
+}
+
+#headerTopoPortal .col-xs-5 {
+    width: 41.66666667%
+}
+
+#headerTopoPortal .col-xs-4 {
+    width: 33.33333333%
+}
+
+#headerTopoPortal .col-xs-3 {
+    width: 25%
+}
+
+#headerTopoPortal .col-xs-2 {
+    width: 16.66666667%
+}
+
+#headerTopoPortal .col-xs-1 {
+    width: 8.33333333%
+}
+
+#headerTopoPortal .col-xs-pull-12 {
+    right: 100%
+}
+
+#headerTopoPortal .col-xs-pull-11 {
+    right: 91.66666667%
+}
+
+#headerTopoPortal .col-xs-pull-10 {
+    right: 83.33333333%
+}
+
+#headerTopoPortal .col-xs-pull-9 {
+    right: 75%
+}
+
+#headerTopoPortal .col-xs-pull-8 {
+    right: 66.66666667%
+}
+
+#headerTopoPortal .col-xs-pull-7 {
+    right: 58.33333333%
+}
+
+#headerTopoPortal .col-xs-pull-6 {
+    right: 50%
+}
+
+#headerTopoPortal .col-xs-pull-5 {
+    right: 41.66666667%
+}
+
+#headerTopoPortal .col-xs-pull-4 {
+    right: 33.33333333%
+}
+
+#headerTopoPortal .col-xs-pull-3 {
+    right: 25%
+}
+
+#headerTopoPortal .col-xs-pull-2 {
+    right: 16.66666667%
+}
+
+#headerTopoPortal .col-xs-pull-1 {
+    right: 8.33333333%
+}
+
+#headerTopoPortal .col-xs-pull-0 {
+    right: auto
+}
+
+#headerTopoPortal .col-xs-push-12 {
+    left: 100%
+}
+
+#headerTopoPortal .col-xs-push-11 {
+    left: 91.66666667%
+}
+
+#headerTopoPortal .col-xs-push-10 {
+    left: 83.33333333%
+}
+
+#headerTopoPortal .col-xs-push-9 {
+    left: 75%
+}
+
+#headerTopoPortal .col-xs-push-8 {
+    left: 66.66666667%
+}
+
+#headerTopoPortal .col-xs-push-7 {
+    left: 58.33333333%
+}
+
+#headerTopoPortal .col-xs-push-6 {
+    left: 50%
+}
+
+#headerTopoPortal .col-xs-push-5 {
+    left: 41.66666667%
+}
+
+#headerTopoPortal .col-xs-push-4 {
+    left: 33.33333333%
+}
+
+#headerTopoPortal .col-xs-push-3 {
+    left: 25%
+}
+
+#headerTopoPortal .col-xs-push-2 {
+    left: 16.66666667%
+}
+
+#headerTopoPortal .col-xs-push-1 {
+    left: 8.33333333%
+}
+
+#headerTopoPortal .col-xs-push-0 {
+    left: auto
+}
+
+#headerTopoPortal .col-xs-offset-12 {
+    margin-left: 100%
+}
+
+#headerTopoPortal .col-xs-offset-11 {
+    margin-left: 91.66666667%
+}
+
+#headerTopoPortal .col-xs-offset-10 {
+    margin-left: 83.33333333%
+}
+
+#headerTopoPortal .col-xs-offset-9 {
+    margin-left: 75%
+}
+
+#headerTopoPortal .col-xs-offset-8 {
+    margin-left: 66.66666667%
+}
+
+#headerTopoPortal .col-xs-offset-7 {
+    margin-left: 58.33333333%
+}
+
+#headerTopoPortal .col-xs-offset-6 {
+    margin-left: 50%
+}
+
+#headerTopoPortal .col-xs-offset-5 {
+    margin-left: 41.66666667%
+}
+
+#headerTopoPortal .col-xs-offset-4 {
+    margin-left: 33.33333333%
+}
+
+#headerTopoPortal .col-xs-offset-3 {
+    margin-left: 25%
+}
+
+#headerTopoPortal .col-xs-offset-2 {
+    margin-left: 16.66666667%
+}
+
+#headerTopoPortal .col-xs-offset-1 {
+    margin-left: 8.33333333%
+}
+
+#headerTopoPortal .col-xs-offset-0 {
+    margin-left: 0%
+}
+
+@media(min-width:768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left
+    }
+
+    #headerTopoPortal .col-sm-12 {
+        width: 100%
+    }
+
+    #headerTopoPortal .col-sm-11 {
+        width: 91.66666667%
+    }
+
+    #headerTopoPortal .col-sm-10 {
+        width: 83.33333333%
+    }
+
+    #headerTopoPortal .col-sm-9 {
+        width: 75%
+    }
+
+    #headerTopoPortal .col-sm-8 {
+        width: 66.66666667%
+    }
+
+    #headerTopoPortal .col-sm-7 {
+        width: 58.33333333%
+    }
+
+    #headerTopoPortal .col-sm-6 {
+        width: 50%
+    }
+
+    #headerTopoPortal .col-sm-5 {
+        width: 41.66666667%
+    }
+
+    #headerTopoPortal .col-sm-4 {
+        width: 33.33333333%
+    }
+
+    #headerTopoPortal .col-sm-3 {
+        width: 25%
+    }
+
+    #headerTopoPortal .col-sm-2 {
+        width: 16.66666667%
+    }
+
+    #headerTopoPortal .col-sm-1 {
+        width: 8.33333333%
+    }
+
+    #headerTopoPortal .col-sm-pull-12 {
+        right: 100%
+    }
+
+    #headerTopoPortal .col-sm-pull-11 {
+        right: 91.66666667%
+    }
+
+    #headerTopoPortal .col-sm-pull-10 {
+        right: 83.33333333%
+    }
+
+    #headerTopoPortal .col-sm-pull-9 {
+        right: 75%
+    }
+
+    #headerTopoPortal .col-sm-pull-8 {
+        right: 66.66666667%
+    }
+
+    #headerTopoPortal .col-sm-pull-7 {
+        right: 58.33333333%
+    }
+
+    #headerTopoPortal .col-sm-pull-6 {
+        right: 50%
+    }
+
+    #headerTopoPortal .col-sm-pull-5 {
+        right: 41.66666667%
+    }
+
+    #headerTopoPortal .col-sm-pull-4 {
+        right: 33.33333333%
+    }
+
+    #headerTopoPortal .col-sm-pull-3 {
+        right: 25%
+    }
+
+    #headerTopoPortal .col-sm-pull-2 {
+        right: 16.66666667%
+    }
+
+    #headerTopoPortal .col-sm-pull-1 {
+        right: 8.33333333%
+    }
+
+    #headerTopoPortal .col-sm-pull-0 {
+        right: auto
+    }
+
+    #headerTopoPortal .col-sm-push-12 {
+        left: 100%
+    }
+
+    #headerTopoPortal .col-sm-push-11 {
+        left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-sm-push-10 {
+        left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-sm-push-9 {
+        left: 75%
+    }
+
+    #headerTopoPortal .col-sm-push-8 {
+        left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-sm-push-7 {
+        left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-sm-push-6 {
+        left: 50%
+    }
+
+    #headerTopoPortal .col-sm-push-5 {
+        left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-sm-push-4 {
+        left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-sm-push-3 {
+        left: 25%
+    }
+
+    #headerTopoPortal .col-sm-push-2 {
+        left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-sm-push-1 {
+        left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-sm-push-0 {
+        left: auto
+    }
+
+    #headerTopoPortal .col-sm-offset-12 {
+        margin-left: 100%
+    }
+
+    #headerTopoPortal .col-sm-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-sm-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-sm-offset-9 {
+        margin-left: 75%
+    }
+
+    #headerTopoPortal .col-sm-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-sm-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-sm-offset-6 {
+        margin-left: 50%
+    }
+
+    #headerTopoPortal .col-sm-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-sm-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+    #headerTopoPortal .col-sm-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-sm-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-sm-offset-0 {
+        margin-left: 0%
+    }
+}
+
+@media(min-width:992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left
+    }
+
+    #headerTopoPortal .col-md-12 {
+        width: 100%
+    }
+
+    #headerTopoPortal .col-md-11 {
+        width: 91.66666667%
+    }
+
+    #headerTopoPortal .col-md-10 {
+        width: 83.33333333%
+    }
+
+    #headerTopoPortal .col-md-9 {
+        width: 75%
+    }
+
+    #headerTopoPortal .col-md-8 {
+        width: 66.66666667%
+    }
+
+    #headerTopoPortal .col-md-7 {
+        width: 58.33333333%
+    }
+
+    #headerTopoPortal .col-md-6 {
+        width: 50%
+    }
+
+    #headerTopoPortal .col-md-5 {
+        width: 41.66666667%
+    }
+
+    #headerTopoPortal .col-md-4 {
+        width: 33.33333333%
+    }
+
+    #headerTopoPortal .col-md-3 {
+        width: 25%
+    }
+
+    #headerTopoPortal .col-md-2 {
+        width: 16.66666667%
+    }
+
+    #headerTopoPortal .col-md-1 {
+        width: 8.33333333%
+    }
+
+    #headerTopoPortal .col-md-pull-12 {
+        right: 100%
+    }
+
+    #headerTopoPortal .col-md-pull-11 {
+        right: 91.66666667%
+    }
+
+    #headerTopoPortal .col-md-pull-10 {
+        right: 83.33333333%
+    }
+
+    #headerTopoPortal .col-md-pull-9 {
+        right: 75%
+    }
+
+    #headerTopoPortal .col-md-pull-8 {
+        right: 66.66666667%
+    }
+
+    #headerTopoPortal .col-md-pull-7 {
+        right: 58.33333333%
+    }
+
+    #headerTopoPortal .col-md-pull-6 {
+        right: 50%
+    }
+
+    #headerTopoPortal .col-md-pull-5 {
+        right: 41.66666667%
+    }
+
+    #headerTopoPortal .col-md-pull-4 {
+        right: 33.33333333%
+    }
+
+    #headerTopoPortal .col-md-pull-3 {
+        right: 25%
+    }
+
+    #headerTopoPortal .col-md-pull-2 {
+        right: 16.66666667%
+    }
+
+    #headerTopoPortal .col-md-pull-1 {
+        right: 8.33333333%
+    }
+
+    #headerTopoPortal .col-md-pull-0 {
+        right: auto
+    }
+
+    #headerTopoPortal .col-md-push-12 {
+        left: 100%
+    }
+
+    #headerTopoPortal .col-md-push-11 {
+        left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-md-push-10 {
+        left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-md-push-9 {
+        left: 75%
+    }
+
+    #headerTopoPortal .col-md-push-8 {
+        left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-md-push-7 {
+        left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-md-push-6 {
+        left: 50%
+    }
+
+    #headerTopoPortal .col-md-push-5 {
+        left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-md-push-4 {
+        left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-md-push-3 {
+        left: 25%
+    }
+
+    #headerTopoPortal .col-md-push-2 {
+        left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-md-push-1 {
+        left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-md-push-0 {
+        left: auto
+    }
+
+    #headerTopoPortal .col-md-offset-12 {
+        margin-left: 100%
+    }
+
+    #headerTopoPortal .col-md-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-md-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-md-offset-9 {
+        margin-left: 75%
+    }
+
+    #headerTopoPortal .col-md-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-md-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-md-offset-6 {
+        margin-left: 50%
+    }
+
+    #headerTopoPortal .col-md-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-md-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-md-offset-3 {
+        margin-left: 25%
+    }
+
+    #headerTopoPortal .col-md-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-md-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-md-offset-0 {
+        margin-left: 0%
+    }
+}
+
+@media(min-width:1220px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left
+    }
+
+    #headerTopoPortal .col-lg-12 {
+        width: 100%
+    }
+
+    #headerTopoPortal .col-lg-11 {
+        width: 91.66666667%
+    }
+
+    #headerTopoPortal .col-lg-10 {
+        width: 83.33333333%
+    }
+
+    #headerTopoPortal .col-lg-9 {
+        width: 75%
+    }
+
+    #headerTopoPortal .col-lg-8 {
+        width: 66.66666667%
+    }
+
+    #headerTopoPortal .col-lg-7 {
+        width: 58.33333333%
+    }
+
+    #headerTopoPortal .col-lg-6 {
+        width: 50%
+    }
+
+    #headerTopoPortal .col-lg-5 {
+        width: 41.66666667%
+    }
+
+    #headerTopoPortal .col-lg-4 {
+        width: 33.33333333%
+    }
+
+    #headerTopoPortal .col-lg-3 {
+        width: 25%
+    }
+
+    #headerTopoPortal .col-lg-2 {
+        width: 16.66666667%
+    }
+
+    #headerTopoPortal .col-lg-1 {
+        width: 8.33333333%
+    }
+
+    #headerTopoPortal .col-lg-pull-12 {
+        right: 100%
+    }
+
+    #headerTopoPortal .col-lg-pull-11 {
+        right: 91.66666667%
+    }
+
+    #headerTopoPortal .col-lg-pull-10 {
+        right: 83.33333333%
+    }
+
+    #headerTopoPortal .col-lg-pull-9 {
+        right: 75%
+    }
+
+    #headerTopoPortal .col-lg-pull-8 {
+        right: 66.66666667%
+    }
+
+    #headerTopoPortal .col-lg-pull-7 {
+        right: 58.33333333%
+    }
+
+    #headerTopoPortal .col-lg-pull-6 {
+        right: 50%
+    }
+
+    #headerTopoPortal .col-lg-pull-5 {
+        right: 41.66666667%
+    }
+
+    #headerTopoPortal .col-lg-pull-4 {
+        right: 33.33333333%
+    }
+
+    #headerTopoPortal .col-lg-pull-3 {
+        right: 25%
+    }
+
+    #headerTopoPortal .col-lg-pull-2 {
+        right: 16.66666667%
+    }
+
+    #headerTopoPortal .col-lg-pull-1 {
+        right: 8.33333333%
+    }
+
+    #headerTopoPortal .col-lg-pull-0 {
+        right: auto
+    }
+
+    #headerTopoPortal .col-lg-push-12 {
+        left: 100%
+    }
+
+    #headerTopoPortal .col-lg-push-11 {
+        left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-lg-push-10 {
+        left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-lg-push-9 {
+        left: 75%
+    }
+
+    #headerTopoPortal .col-lg-push-8 {
+        left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-lg-push-7 {
+        left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-lg-push-6 {
+        left: 50%
+    }
+
+    #headerTopoPortal .col-lg-push-5 {
+        left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-lg-push-4 {
+        left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-lg-push-3 {
+        left: 25%
+    }
+
+    #headerTopoPortal .col-lg-push-2 {
+        left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-lg-push-1 {
+        left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-lg-push-0 {
+        left: auto
+    }
+
+    #headerTopoPortal .col-lg-offset-12 {
+        margin-left: 100%
+    }
+
+    #headerTopoPortal .col-lg-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-9 {
+        margin-left: 75%
+    }
+
+    #headerTopoPortal .col-lg-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-6 {
+        margin-left: 50%
+    }
+
+    #headerTopoPortal .col-lg-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-3 {
+        margin-left: 25%
+    }
+
+    #headerTopoPortal .col-lg-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-0 {
+        margin-left: 0%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-12 {
+        margin-left: -100%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-11 {
+        margin-left: -91.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-10 {
+        margin-left: -83.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-9 {
+        margin-left: -75%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-8 {
+        margin-left: -66.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-7 {
+        margin-left: -58.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-6 {
+        margin-left: -50%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-5 {
+        margin-left: -41.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-4 {
+        margin-left: -33.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-3 {
+        margin-left: -25%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-2 {
+        margin-left: -16.66666667%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-1 {
+        margin-left: -8.33333333%
+    }
+
+    #headerTopoPortal .col-lg-offset-min-0 {
+        margin-left: -0%
+    }
+}
+
+#headerTopoPortal label {
+    cursor: inherit;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: bold
+}
+
+#headerTopoPortal input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#headerTopoPortal input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal
+}
+
+#headerTopoPortal input[type="file"] {
+    display: block
+}
+
+#headerTopoPortal input[type="range"] {
+    display: block;
+    width: 100%
+}
+
+#headerTopoPortal select[multiple], select[size] {
+    height: auto
+}
+
+#headerTopoPortal input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+#headerTopoPortal .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+#headerTopoPortal .custom-form-control {
+    display: block;
+    height: auto;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc
+}
+
+#headerTopoPortal form > .searchField {
+    position: relative
+}
+
+    #headerTopoPortal form > .searchField span {
+        color: #de2121;
+        font-size: 18px;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+#headerTopoPortal .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+#headerTopoPortal .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+#headerTopoPortal .form-control:-ms-input-placeholder {
+    color: #999
+}
+
+#headerTopoPortal .form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+#headerTopoPortal .form-control::-ms-expand {
+    border: 0;
+    background-color: transparent
+}
+
+#headerTopoPortal .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1
+}
+
+#headerTopoPortal .form-control[disabled], fieldset[disabled] .form-control {
+    cursor: not-allowed
+}
+
+#headerTopoPortal textarea.form-control {
+    height: auto
+}
+
+#headerTopoPortal input[type="search"] {
+    -webkit-appearance: none
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+        line-height: 34px
+    }
+
+    #headerTopoPortal input[type="date"].input-sm, input[type="time"].input-sm, input[type="datetime-local"].input-sm, input[type="month"].input-sm, .input-group-sm input[type="date"], .input-group-sm input[type="time"], .input-group-sm input[type="datetime-local"], .input-group-sm input[type="month"] {
+        line-height: 30px
+    }
+
+    #headerTopoPortal input[type="date"].input-lg, input[type="time"].input-lg, input[type="datetime-local"].input-lg, input[type="month"].input-lg, .input-group-lg input[type="date"], .input-group-lg input[type="time"], .input-group-lg input[type="datetime-local"], .input-group-lg input[type="month"] {
+        line-height: 46px
+    }
+}
+
+#headerTopoPortal .form-group {
+    margin-bottom: 15px
+}
+
+#headerTopoPortal .has-feedback {
+    position: relative
+}
+
+    #headerTopoPortal .has-feedback .form-control {
+        padding-right: 42.5px
+    }
+
+#headerTopoPortal .form-control-feedback {
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 34px;
+    z-index: 2
+}
+
+@media(min-width:768px) {
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .form-inline .form-control-static {
+        display: inline-block
+    }
+
+    #headerTopoPortal .form-inline .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+        #headerTopoPortal .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn, .form-inline .input-group .form-control {
+            width: auto
+        }
+
+        #headerTopoPortal .form-inline .input-group > .form-control {
+            width: 100%
+        }
+
+    #headerTopoPortal .form-inline .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .form-inline .radio, .form-inline .checkbox {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+        #headerTopoPortal .form-inline .radio label, .form-inline .checkbox label {
+            padding-left: 0
+        }
+
+        #headerTopoPortal .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
+            position: relative;
+            margin-left: 0
+        }
+
+    #headerTopoPortal .form-inline .has-feedback .form-control-feedback {
+        top: 0
+    }
+}
+
+#headerTopoPortal .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+    #headerTopoPortal .fade.in {
+        opacity: 1
+    }
+
+#headerTopoPortal .collapse {
+    display: none
+}
+
+    #headerTopoPortal .collapse.in {
+        display: block
+    }
+
+#headerTopoPortal tr.collapse.in {
+    display: table-row
+}
+
+#headerTopoPortal tbody.collapse.in {
+    display: table-row-group
+}
+
+#headerTopoPortal .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height,visibility;
+    -o-transition-property: height,visibility;
+    transition-property: height,visibility;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease
+}
+
+#headerTopoPortal .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+#headerTopoPortal .dropup, .dropdown {
+    position: relative
+}
+
+#headerTopoPortal .dropdown-toggle:focus {
+    outline: 0
+}
+
+#headerTopoPortal .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+    #headerTopoPortal .dropdown-menu.pull-right {
+        right: 0;
+        left: auto
+    }
+
+    #headerTopoPortal .dropdown-menu .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #e5e5e5
+    }
+
+    #headerTopoPortal .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap
+    }
+
+        #headerTopoPortal .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            text-decoration: none;
+            color: #262626;
+            background-color: #f5f5f5
+        }
+
+    #headerTopoPortal .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+        background-color: #337ab7
+    }
+
+    #headerTopoPortal .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+        color: #777
+    }
+
+        #headerTopoPortal .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+            text-decoration: none;
+            background-color: transparent;
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+            cursor: not-allowed
+        }
+
+#headerTopoPortal .open > .dropdown-menu {
+    display: block
+}
+
+#headerTopoPortal .open > a {
+    outline: 0
+}
+
+#headerTopoPortal .dropdown-menu-right {
+    left: auto;
+    right: 0
+}
+
+#headerTopoPortal .dropdown-menu-left {
+    left: 0;
+    right: auto
+}
+
+#headerTopoPortal .dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap
+}
+
+#headerTopoPortal .dropdown-backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 990
+}
+
+#headerTopoPortal .pull-right > .dropdown-menu {
+    right: 0;
+    left: auto
+}
+
+#headerTopoPortal .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+    content: ""
+}
+
+#headerTopoPortal .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px
+}
+
+@media(min-width:768px) {
+    .navbar-right .dropdown-menu {
+        left: auto;
+        right: 0
+    }
+
+    #headerTopoPortal .navbar-right .dropdown-menu-left {
+        left: 0;
+        right: auto
+    }
+}
+
+#headerTopoPortal .nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none
+}
+
+    #headerTopoPortal .nav > li {
+        position: relative;
+        display: block
+    }
+
+        #headerTopoPortal .nav > li > a, .nav > li > span {
+            position: relative;
+            display: block;
+            padding: 10px 15px
+        }
+
+            #headerTopoPortal .nav > li > a:hover:not(.hover-mobile), .nav > li > a:focus:not(.hover-mobile) {
+                text-decoration: none;
+                background-color: #eee
+            }
+
+@media(max-width:991px) {
+    .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #eee
+    }
+}
+
+#headerTopoPortal .nav > li.disabled > a {
+    color: #777
+}
+
+    #headerTopoPortal .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+        color: #777;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: not-allowed
+    }
+
+#headerTopoPortal .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #eee;
+    border-color: #337ab7
+}
+
+#headerTopoPortal .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+
+#headerTopoPortal .nav > li > a > img {
+    max-width: none
+}
+
+#headerTopoPortal .nav-tabs {
+    border-bottom: 1px solid #ddd
+}
+
+    #headerTopoPortal .nav-tabs > li {
+        float: left;
+        margin-bottom: -1px
+    }
+
+        #headerTopoPortal .nav-tabs > li > a {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0
+        }
+
+            #headerTopoPortal .nav-tabs > li > a:hover {
+                border-color: #eee #eee #ddd
+            }
+
+        #headerTopoPortal .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            cursor: default
+        }
+
+    #headerTopoPortal .nav-tabs.nav-justified {
+        width: 100%;
+        border-bottom: 0
+    }
+
+        #headerTopoPortal .nav-tabs.nav-justified > li {
+            float: none
+        }
+
+            #headerTopoPortal .nav-tabs.nav-justified > li > a {
+                text-align: center;
+                margin-bottom: 5px
+            }
+
+        #headerTopoPortal .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+            top: auto;
+            left: auto
+        }
+
+@media(min-width:992px) {
+    .nav-tabs.nav-justified > li {
+        display: table-cell;
+        width: 1%
+    }
+
+    #headerTopoPortal .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0
+    }
+}
+
+#headerTopoPortal .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px
+}
+
+#headerTopoPortal .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #ddd
+}
+
+@media(min-width:992px) {
+    .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+
+    #headerTopoPortal .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: #fff
+    }
+}
+
+#headerTopoPortal .nav-pills > li {
+    float: left
+}
+
+    #headerTopoPortal .nav-pills > li > a {
+        border-radius: 4px
+    }
+
+    #headerTopoPortal .nav-pills > li + li {
+        margin-left: 2px
+    }
+
+    #headerTopoPortal .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+        color: #fff;
+        background-color: #337ab7
+    }
+
+#headerTopoPortal .nav-stacked > li {
+    float: none
+}
+
+    #headerTopoPortal .nav-stacked > li + li {
+        margin-top: 2px;
+        margin-left: 0
+    }
+
+#headerTopoPortal .nav-justified {
+    width: 100%
+}
+
+    #headerTopoPortal .nav-justified > li {
+        float: none
+    }
+
+        #headerTopoPortal .nav-justified > li > a {
+            text-align: center;
+            margin-bottom: 5px
+        }
+
+    #headerTopoPortal .nav-justified > .dropdown .dropdown-menu {
+        top: auto;
+        left: auto
+    }
+
+@media(min-width:992px) {
+    .nav-justified > li {
+        display: table-cell;
+        width: 1%
+    }
+
+    #headerTopoPortal .nav-justified > li > a {
+        margin-bottom: 0
+    }
+}
+
+#headerTopoPortal .nav-tabs-justified {
+    border-bottom: 0
+}
+
+    #headerTopoPortal .nav-tabs-justified > li > a {
+        margin-right: 0;
+        border-radius: 4px
+    }
+
+    #headerTopoPortal .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+        border: 1px solid #ddd
+    }
+
+@media(min-width:992px) {
+    .nav-tabs-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+
+    #headerTopoPortal .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+        border-bottom-color: #fff
+    }
+}
+
+#headerTopoPortal .tab-content > .tab-pane {
+    display: none
+}
+
+#headerTopoPortal .tab-content > .active {
+    display: block
+}
+
+#headerTopoPortal .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0
+}
+
+#headerTopoPortal .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+
+@media(min-width:992px) {
+    .navbar {
+        border-radius: 4px
+    }
+}
+
+@media(min-width:992px) {
+    .navbar-header {
+        float: left
+    }
+}
+
+#headerTopoPortal .navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    -webkit-overflow-scrolling: touch
+}
+
+    #headerTopoPortal .navbar-collapse.in {
+        overflow-y: auto
+    }
+
+@media(min-width:992px) {
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    #headerTopoPortal .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important
+    }
+
+    #headerTopoPortal .navbar-collapse.in {
+        overflow-y: visible
+    }
+
+    #headerTopoPortal .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+#headerTopoPortal .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px
+}
+
+@media(max-device-width:480px)and (orientation:landscape) {
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 200px
+    }
+}
+
+#headerTopoPortal .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+@media(min-width:992px) {
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+
+#headerTopoPortal .navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px
+}
+
+@media(min-width:992px) {
+    .navbar-static-top {
+        border-radius: 0
+    }
+}
+
+#headerTopoPortal .navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+@media(min-width:992px) {
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        border-radius: 0
+    }
+}
+
+#headerTopoPortal .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+}
+
+#headerTopoPortal .navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0
+}
+
+#headerTopoPortal .navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px
+}
+
+    #headerTopoPortal .navbar-brand:hover, .navbar-brand:focus {
+        text-decoration: none
+    }
+
+    #headerTopoPortal .navbar-brand > img {
+        display: block
+    }
+
+@media(min-width:992px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: -15px
+    }
+}
+
+#headerTopoPortal .navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border-radius: 4px;
+    color: #bd2222;
+    float: right;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 9px 10px;
+    position: relative
+}
+
+@media(max-width:380px) {
+    .navbar-toggle {
+        margin-right: 10px !important
+    }
+
+    #headerTopoPortal .navbar-toggle-search, .navbar-toggle-user {
+        margin-left: 3% !important;
+        margin-right: 3% !important
+    }
+}
+
+#headerTopoPortal .navbar-toggle-user {
+    background-image: url(http://localhost:52483/Content/Skins/padrao/imagens/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -145px -1321px;
+    display: inline-block;
+    float: right;
+    height: 35px;
+    margin: 10px 20px;
+    width: 32px
+}
+
+#headerTopoPortal .navbar-toggle-search {
+    color: #bd2222;
+    float: right;
+    font-size: 28px;
+    margin: 14px 20px;
+    position: unset
+}
+
+#headerTopoPortal .navbar-toggle:focus {
+    outline: 0
+}
+
+#headerTopoPortal .navbar-toggle .icon-bar {
+    background-color: #bd2222;
+    border-radius: 1px;
+    display: block;
+    height: 5px;
+    width: 30px
+}
+
+    #headerTopoPortal .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 4px
+    }
+
+@media(min-width:992px) {
+    .navbar-toggle {
+        display: none
+    }
+}
+
+#headerTopoPortal .navbar-nav {
+    margin: 7.5px -15px
+}
+
+    #headerTopoPortal .navbar-nav > li > a, .navbar-nav > li > label {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 30px
+    }
+
+@media(max-width:767px) {
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+        #headerTopoPortal .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px
+        }
+
+    #headerTopoPortal .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px
+    }
+
+        #headerTopoPortal .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+            background-image: none
+        }
+}
+
+@media(min-width:992px) {
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+    #headerTopoPortal .navbar-nav > li {
+        float: left
+    }
+
+        #headerTopoPortal .navbar-nav > li > a, .navbar-nav > li > span, .navbar-nav > li > label {
+            padding-top: 15px;
+            padding-bottom: 15px
+        }
+}
+
+#headerTopoPortal .navbar-form {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+@media(min-width:992px) {
+    .navbar-form .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .navbar-form .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .navbar-form .form-control-static {
+        display: inline-block
+    }
+
+    #headerTopoPortal .navbar-form .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+        #headerTopoPortal .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn, .navbar-form .input-group .form-control {
+            width: auto
+        }
+
+        #headerTopoPortal .navbar-form .input-group > .form-control {
+            width: 100%
+        }
+
+    #headerTopoPortal .navbar-form .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal .navbar-form .radio, .navbar-form .checkbox {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+        #headerTopoPortal .navbar-form .radio label, .navbar-form .checkbox label {
+            padding-left: 0
+        }
+
+        #headerTopoPortal .navbar-form .radio input[type="radio"], .navbar-form .checkbox input[type="checkbox"] {
+            position: relative;
+            margin-left: 0
+        }
+
+    #headerTopoPortal .navbar-form .has-feedback .form-control-feedback {
+        top: 0
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-form .form-group {
+        margin-bottom: 5px
+    }
+
+    #headerTopoPortal .navbar-form .form-group:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media(min-width:992px) {
+    .navbar-form {
+        width: auto;
+        border: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 13px;
+        padding-top: 0;
+        padding-bottom: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+#headerTopoPortal .navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0
+}
+
+#headerTopoPortal .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+    margin-bottom: 0;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+#headerTopoPortal .navbar-btn {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+    #headerTopoPortal .navbar-btn.btn-sm {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    #headerTopoPortal .navbar-btn.btn-xs {
+        margin-top: 14px;
+        margin-bottom: 14px
+    }
+
+#headerTopoPortal .navbar-text {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+@media(min-width:992px) {
+    .navbar-text {
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px
+    }
+}
+
+@media(min-width:992px) {
+    .navbar-left {
+        float: left !important
+    }
+
+    #headerTopoPortal .navbar-right {
+        float: right !important;
+        margin-right: -15px
+    }
+
+        #headerTopoPortal .navbar-right ~ .navbar-right {
+            margin-right: 0
+        }
+}
+
+#headerTopoPortal .navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7
+}
+
+    #headerTopoPortal .navbar-default .navbar-brand {
+        color: #777
+    }
+
+        #headerTopoPortal .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+            color: #5e5e5e;
+            background-color: transparent
+        }
+
+    #headerTopoPortal .navbar-default .navbar-text {
+        color: #777
+    }
+
+    #headerTopoPortal .navbar-default .navbar-nav > li > a {
+        color: #777
+    }
+
+        #headerTopoPortal .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+            color: #333;
+            background-color: transparent
+        }
+
+    #headerTopoPortal .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7
+    }
+
+    #headerTopoPortal .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent
+    }
+
+    #headerTopoPortal .navbar-default .navbar-toggle {
+        border-color: #ddd
+    }
+
+        #headerTopoPortal .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+            background-color: #ddd
+        }
+
+        #headerTopoPortal .navbar-default .navbar-toggle .icon-bar {
+            background-color: #888
+        }
+
+    #headerTopoPortal .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7
+    }
+
+    #headerTopoPortal .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+        background-color: #e7e7e7;
+        color: #555
+    }
+
+@media(max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777
+    }
+
+        #headerTopoPortal .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #333;
+            background-color: transparent
+        }
+
+    #headerTopoPortal .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7
+    }
+
+    #headerTopoPortal .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent
+    }
+}
+
+#headerTopoPortal .navbar-default .navbar-link {
+    color: #777
+}
+
+    #headerTopoPortal .navbar-default .navbar-link:hover {
+        color: #333
+    }
+
+#headerTopoPortal .navbar-default .btn-link {
+    color: #777
+}
+
+    #headerTopoPortal .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+        color: #333
+    }
+
+    #headerTopoPortal .navbar-default .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus {
+        color: #ccc
+    }
+
+#headerTopoPortal .clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after {
+    content: " ";
+    display: table
+}
+
+#headerTopoPortal .clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after {
+    clear: both
+}
+
+#headerTopoPortal .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#headerTopoPortal .pull-right {
+    float: right !important
+}
+
+#headerTopoPortal .pull-left {
+    float: left !important
+}
+
+#headerTopoPortal .hide {
+    display: none !important
+}
+
+#headerTopoPortal .show {
+    display: block !important
+}
+
+#headerTopoPortal .invisible {
+    visibility: hidden
+}
+
+#headerTopoPortal .text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+#headerTopoPortal .hidden {
+    display: none !important
+}
+
+#headerTopoPortal .affix {
+    position: fixed
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+#headerTopoPortal .visible-xs, .visible-sm, .visible-md, .visible-lg {
+    display: none !important
+}
+
+#headerTopoPortal .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block {
+    display: none !important
+}
+
+@media(max-width:767px) {
+    .visible-xs {
+        display: block !important
+    }
+
+    #headerTopoPortal table.visible-xs {
+        display: table !important
+    }
+
+    #headerTopoPortal tr.visible-xs {
+        display: table-row !important
+    }
+
+    #headerTopoPortal th.visible-xs, td.visible-xs {
+        display: table-cell !important
+    }
+}
+
+@media(max-width:767px) {
+    .visible-xs-block {
+        display: block !important
+    }
+}
+
+@media(max-width:767px) {
+    .visible-xs-inline {
+        display: inline !important
+    }
+}
+
+@media(max-width:767px) {
+    .visible-xs-inline-block {
+        display: inline-block !important
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .visible-sm {
+        display: block !important
+    }
+
+    #headerTopoPortal table.visible-sm {
+        display: table !important
+    }
+
+    #headerTopoPortal tr.visible-sm {
+        display: table-row !important
+    }
+
+    #headerTopoPortal th.visible-sm, td.visible-sm {
+        display: table-cell !important
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .visible-sm-block {
+        display: block !important
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .visible-sm-inline {
+        display: inline !important
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .visible-sm-inline-block {
+        display: inline-block !important
+    }
+}
+
+@media(min-width:992px)and (max-width:1199px) {
+    .visible-md {
+        display: block !important
+    }
+
+    #headerTopoPortal table.visible-md {
+        display: table !important
+    }
+
+    #headerTopoPortal tr.visible-md {
+        display: table-row !important
+    }
+
+    #headerTopoPortal th.visible-md, td.visible-md {
+        display: table-cell !important
+    }
+}
+
+@media(min-width:992px)and (max-width:1199px) {
+    .visible-md-block {
+        display: block !important
+    }
+}
+
+@media(min-width:992px)and (max-width:1199px) {
+    .visible-md-inline {
+        display: inline !important
+    }
+}
+
+@media(min-width:992px)and (max-width:1199px) {
+    .visible-md-inline-block {
+        display: inline-block !important
+    }
+}
+
+@media(min-width:1220px) {
+    .visible-lg {
+        display: block !important
+    }
+
+    #headerTopoPortal table.visible-lg {
+        display: table !important
+    }
+
+    #headerTopoPortal tr.visible-lg {
+        display: table-row !important
+    }
+
+    #headerTopoPortal th.visible-lg, td.visible-lg {
+        display: table-cell !important
+    }
+}
+
+@media(min-width:1220px) {
+    .visible-lg-block {
+        display: block !important
+    }
+}
+
+@media(min-width:1220px) {
+    .visible-lg-inline {
+        display: inline !important
+    }
+}
+
+@media(min-width:1220px) {
+    .visible-lg-inline-block {
+        display: inline-block !important
+    }
+}
+
+@media(max-width:767px) {
+    .hidden-xs {
+        display: none !important
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+    .hidden-sm {
+        display: none !important
+    }
+}
+
+@media(min-width:992px)and (max-width:1279px) {
+    .hidden-md {
+        display: none !important
+    }
+
+    #headerTopoPortal .intro {
+    }
+
+    #headerTopoPortal .navbar-nav > li > a {
+        line-height: 30px
+    }
+}
+
+@media(min-width:1220px) {
+    .hidden-lg {
+        display: none !important
+    }
+}
+
+#headerTopoPortal .visible-print {
+    display: none !important
+}
+
+@media print {
+    .visible-print {
+        display: block !important
+    }
+
+    #headerTopoPortal table.visible-print {
+        display: table !important
+    }
+
+    #headerTopoPortal tr.visible-print {
+        display: table-row !important
+    }
+
+    #headerTopoPortal th.visible-print, td.visible-print {
+        display: table-cell !important
+    }
+}
+
+#headerTopoPortal .visible-print-block {
+    display: none !important
+}
+
+@media print {
+    .visible-print-block {
+        display: block !important
+    }
+}
+
+#headerTopoPortal .visible-print-inline {
+    display: none !important
+}
+
+@media print {
+    .visible-print-inline {
+        display: inline !important
+    }
+}
+
+#headerTopoPortal .visible-print-inline-block {
+    display: none !important
+}
+
+@media print {
+    .visible-print-inline-block {
+        display: inline-block !important
+    }
+}
+
+@media print {
+    .hidden-print {
+        display: none !important
+    }
+}
+
+#headerTopoPortal .alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: none;
+    margin-bottom: -40px;
+    margin-top: -12px;
+    max-width: 100vw;
+    opacity: 0;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: opacity .7s,opacity .7s,-webkit-transform .7s;
+    transition: opacity .7s,opacity .7s,transform .7s
+}
+
+    #headerTopoPortal .alert.fixed {
+        position: fixed;
+        top: 134px;
+        left: 0
+    }
+
+#headerTopoPortal .alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442
+}
+
+#headerTopoPortal .alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d
+}
+
+#headerTopoPortal .alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f
+}
+
+#headerTopoPortal .alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b
+}
+
+#headerTopoPortal .alert-dismissable .close, .alert-dismissible .close {
+    color: inherit;
+    position: relative;
+    right: -1px;
+    top: -2px
+}
+
+#headerTopoPortal button.close {
+    background: rgba(0,0,0,0) none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0
+}
+
+#headerTopoPortal .close {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .2;
+    text-shadow: 0 1px 0 #fff
+}
+
+    #headerTopoPortal .close:focus, .close:hover {
+        color: #000;
+        cursor: pointer;
+        opacity: .5;
+        text-decoration: none
+    }
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(http://localhost:52483/Content/Skins/Padrao/fonts/Roboto-Regular.woff2) format('woff2'),url(http://localhost:52483/Content/Skins/Padrao/fonts/Roboto-Regular.ttf) format('truetype')
+}
+
+@media(min-width:1281px) {
+    .search-form {
+        width: 400px
+    }
+
+    #headerTopoPortal footer .logos .simple-list-inline li {
+        padding: 10px 20px
+    }
+}
+
+#headerTopoPortal #navbar-categorias > li > a {
+    padding-top: 18px !important
+}
+
+@media(min-width:992px)and (max-width:1280px) {
+    #ajudaNavBarBox a {
+        padding: 0 !important
+    }
+
+    #headerTopoPortal #navbar-categorias a, #navbar a {
+        padding-left: 9px !important;
+        padding-right: 8px !important
+    }
+
+    #headerTopoPortal #socialsTags {
+        display: inline-table
+    }
+
+        #headerTopoPortal #socialsTags > li a {
+            display: table-cell
+        }
+
+    #headerTopoPortal .search-form {
+        width: 220px
+    }
+
+    #headerTopoPortal footer .logos .simple-list-inline li {
+        padding: 10px
+    }
+
+    #headerTopoPortal footer .links ul li:nth-child(2n+1) {
+        padding-right: 10px
+    }
+}
+
+@media(min-width:992px)and (max-width:1013px) {
+    .search-form {
+        padding: 0;
+        width: 210px
+    }
+}
+
+@media(min-width:992px)and (max-width:992px) {
+    .search-form .glyphicon-search {
+        display: none
+    }
+
+    #headerTopoPortal .search-form {
+        padding: 0;
+        width: 185px
+    }
+
+        #headerTopoPortal .search-form .has-feedback .form-control {
+            padding-right: 10px
+        }
+}
+
+#headerTopoPortal footer .links a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: all .5s ease
+}
+
+#headerTopoPortal a {
+    display: inline-block
+}
+
+#headerTopoPortal body {
+    font-family: Roboto-Regular
+}
+
+#headerTopoPortal div[type="button"], label[type="button"], span[type="button"] {
+    cursor: pointer
+}
+
+#headerTopoPortal footer {
+    background-color: #34495c
+}
+
+    #headerTopoPortal footer > .container > table {
+        width: 100%
+    }
+
+    #headerTopoPortal footer > .container > ul .links {
+        width: 35%
+    }
+
+    #headerTopoPortal footer > .container > ul > li:not(:last-child) {
+        float: left;
+        padding-top: 20px
+    }
+
+    #headerTopoPortal footer .links ul {
+        float: left;
+        font-size: 16px;
+        padding: 30px 0;
+        width: 100%
+    }
+
+@media(max-width:992px) {
+    footer {
+        padding-top: 20px
+    }
+
+    #headerTopoPortal footer .links > ul {
+        font-size: 16px;
+        line-height: 1.6
+    }
+
+    #headerTopoPortal footer .links, footer .links ul, footer .links ul li, footer .sociaisContato {
+        text-align: center;
+        width: 100% !important
+    }
+
+        #headerTopoPortal footer .links ul:first-child {
+            padding-bottom: 0
+        }
+
+        #headerTopoPortal footer .links ul:last-child {
+            padding-bottom: 10px;
+            padding-top: 0
+        }
+
+    #headerTopoPortal footer .paragraphAddress {
+        padding: 10px 15%
+    }
+
+    #headerTopoPortal footer .sociaisContato {
+        padding: 0 !important
+    }
+
+    #headerTopoPortal footer > .container > ul > li:not(:last-child) {
+        float: left;
+        padding-top: 0
+    }
+
+    #headerTopoPortal footer .sociaisContato div:first-child {
+        padding: 10px 0 !important
+    }
+
+    #headerTopoPortal footer .paragraphAddress {
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 0 10%
+    }
+}
+
+#headerTopoPortal footer .links ul li {
+    list-style-type: none
+}
+
+    #headerTopoPortal footer .links ul li a {
+        color: #fff;
+        text-decoration: none
+    }
+
+#headerTopoPortal footer .links ul li {
+    display: inline-block;
+    width: calc(50% - 2px)
+}
+
+#headerTopoPortal footer .logos {
+    background-color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%
+}
+
+#headerTopoPortal footer .sociaisContato {
+    padding: 0 20px;
+    width: 41%
+}
+
+    #headerTopoPortal footer .sociaisContato .img-sprite {
+        background: rgba(0,0,0,0) url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png) no-repeat scroll 0 0;
+        display: inline-block;
+        height: 50px;
+        vertical-align: bottom;
+        width: 50px
+    }
+
+#headerTopoPortal main {
+    color: #354a5f;
+    font-size: 14px
+}
+
+    #headerTopoPortal main > section {
+        padding: 30px 0 40px 0
+    }
+
+#headerTopoPortal .font-bold {
+    font-weight: bold !important
+}
+
+#headerTopoPortal .font-not-bold {
+    font-weight: 400 !important
+}
+
+#headerTopoPortal .f-left {
+    float: left
+}
+
+#headerTopoPortal .f-right {
+    float: right
+}
+
+#headerTopoPortal #boxSocial {
+    background-color: #f0f0f0;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 0 0 5px #c8c8c8;
+    color: #8c8c8c;
+    font-size: 10px;
+    height: 240px;
+    padding: 20px 5px 10px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    z-index: 1050
+}
+
+    #headerTopoPortal #boxSocial li {
+        padding-bottom: 7px
+    }
+
+    #headerTopoPortal #boxSocial .img-sprite {
+        height: 30px;
+        width: 30px
+    }
+
+        #headerTopoPortal #boxSocial .img-sprite.colored {
+            height: 32px;
+            width: 32px
+        }
+
+        #headerTopoPortal #boxSocial .img-sprite.cursored {
+            cursor: pointer
+        }
+
+#headerTopoPortal footer .img-sprite.facebook, .img-sprite.facebook {
+    background-position: 7px -1px
+}
+
+#headerTopoPortal footer .img-sprite.twitter, .img-sprite.twitter {
+    background-position: 7px -48px
+}
+
+#headerTopoPortal footer .img-sprite.google, .img-sprite.google {
+    background-position: 7px -93px
+}
+
+#headerTopoPortal footer .img-sprite.youtube, .img-sprite.youtube {
+    background-position: 7px -139px
+}
+
+#headerTopoPortal footer .img-sprite.instagram, .img-sprite.instagram {
+    background-position: 7px -184px
+}
+
+#headerTopoPortal footer .img-sprite.facebook-inverse, .img-sprite.facebook-inverse {
+    background-position: -61px -533px
+}
+
+#headerTopoPortal footer .img-sprite.twitter-inverse, .img-sprite.twitter-inverse {
+    background-position: -144px -534px
+}
+
+#headerTopoPortal footer .img-sprite.google-inverse, .img-sprite.google-inverse {
+    background-position: -61px -679px
+}
+
+#headerTopoPortal footer .img-sprite.youtube-inverse, .img-sprite.youtube-inverse {
+    background-position: -61px -606px
+}
+
+#headerTopoPortal footer .img-sprite.instagram-inverse, .img-sprite.instagram-inverse {
+    background-position: -144px -607px
+}
+
+#headerTopoPortal .img-sprite.whatsapp.colored.small {
+    background-position: -75px -825px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal .img-sprite.chat.small {
+    background-position: -237px -12px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal .img-sprite.phone.small {
+    background-position: -7px -758px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal .img-sprite-phone-big {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png);
+    background-position: -247px -482px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    height: 36px;
+    margin: 10px 20px;
+    width: 32px
+}
+
+#headerTopoPortal .img-sprite.chat-white.small {
+    background-position: -247px -112px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal #fixedChatButton .img-sprite.chat-white.small {
+    height: 22px;
+    width: 21px
+}
+
+#headerTopoPortal #boxConsultor .img-sprite.phone-white.small {
+    height: 22px;
+    width: 21px
+}
+
+#headerTopoPortal #botaoCarrinhoFixed {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png);
+    background-position: -181px -1390px;
+    cursor: pointer;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 180px;
+    width: 85px;
+    z-index: 10000
+}
+
+    #headerTopoPortal #botaoCarrinhoFixed span {
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        left: 59px;
+        position: absolute;
+        top: 14px
+    }
+
+#headerTopoPortal .img-sprite.phone-white.small {
+    background-position: -149px -762px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal :hover > .img-sprite.chat.small {
+    background-position: -237px -64px;
+    background-size: auto auto !important
+}
+
+#headerTopoPortal :hover > .img-sprite.phone.small {
+    background-position: -77px -758px;
+    background-size: auto auto !important
+}
+
+@media(min-width:992px) {
+    .img-sprite.whatsapp.colored {
+        background-position: -131px -304px;
+        background-size: auto 490px
+    }
+
+    #headerTopoPortal .img-sprite.phone {
+        background-position: -83px -387px;
+        background-size: auto 490px
+    }
+
+    #headerTopoPortal .img-sprite.chat {
+        background-position: -131px -341px;
+        background-size: auto 490px
+    }
+
+    #headerTopoPortal .img-sprite.email:not(.colored) {
+        background-position: -131px -454px;
+        background-size: auto 490px
+    }
+
+    #headerTopoPortal .img-sprite.help {
+        background-position: -131px -378px;
+        background-size: auto 490px
+    }
+}
+
+@media(max-width:991px) {
+    .img-sprite.whatsapp.colored {
+        background-position: -227px -534px
+    }
+
+    #headerTopoPortal .img-sprite.phone {
+        background-position: -144px -678px
+    }
+
+    #headerTopoPortal .img-sprite.chat {
+        background-position: -228px -597px
+    }
+
+    #headerTopoPortal .img-sprite.email {
+        background-position: -228px -796px
+    }
+
+    #headerTopoPortal .img-sprite.help {
+        background-position: -228px -663px
+    }
+}
+
+#headerTopoPortal .img-sprite.facebook.colored {
+    background-position: -1px -532px
+}
+
+#headerTopoPortal .img-sprite.twitter.colored {
+    background-position: -1px -574px
+}
+
+#headerTopoPortal .img-sprite.google.colored {
+    background-position: -1px -616px
+}
+
+#headerTopoPortal .img-sprite.email.colored {
+    background-position: -1px -701px
+}
+
+#headerTopoPortal .img-sprite.linkedin.colored {
+    background-position: -1px -658px
+}
+
+#headerTopoPortal .cards.simple-list-inline li {
+    padding: 2px 10px
+}
+
+#headerTopoPortal footer .simple-list-inline li:first-child {
+    padding-left: 0
+}
+
+#headerTopoPortal footer .simple-list-inline li:last-child {
+    padding-right: 0
+}
+
+#headerTopoPortal footer .sociaisContato div:first-child {
+    padding: 20px 0
+}
+
+#headerTopoPortal footer .sociaisContato ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left
+}
+
+#headerTopoPortal footer .sociaisContato li {
+    text-align: left
+}
+
+@media(max-width:991px) {
+    footer .sociaisContato ul {
+        margin: auto
+    }
+}
+
+@media(min-width:992px) {
+    footer .sociaisContato ul {
+        width: 80%
+    }
+}
+
+#headerTopoPortal footer .sociaisContato table {
+    width: 100%
+}
+
+    #headerTopoPortal footer .sociaisContato table td {
+        color: #fff;
+        text-align: left
+    }
+
+#headerTopoPortal footer .telefoneHidden {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    width: 100%
+}
+
+#headerTopoPortal .modal-css-content {
+    background-color: #fff;
+    left: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#headerTopoPortal .modal-sm {
+    width: 400px
+}
+
+@media(max-width:420px) {
+    .modal-400 {
+        width: calc(100% - 20px)
+    }
+}
+
+#headerTopoPortal .modal-450 {
+    width: 450px
+}
+
+@media(max-width:470px) {
+    .modal-450 {
+        width: calc(100% - 20px)
+    }
+}
+
+#headerTopoPortal .modal-md {
+    width: 500px
+}
+
+@media(max-width:520px) {
+    .modal-500 {
+        width: calc(100% - 20px)
+    }
+}
+
+#headerTopoPortal .modal-css-bg {
+    background: rgba(52,73,93,.4) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition-duration: .4s;
+    transition-property: visibility,opacity;
+    transition-timing-function: ease-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 5000
+}
+
+#headerTopoPortal .colapse-check:checked + .collapse-target-box.modal-css-bg {
+    opacity: 1;
+    top: 0;
+    visibility: visible
+}
+
+#headerTopoPortal #categoriasDiv {
+    background-color: #ddd;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 220px;
+    overflow: hidden;
+    padding-top: 19px;
+    position: relative;
+    width: 100%
+}
+
+#headerTopoPortal #categoriasDivInst {
+    background-color: #f7f7f7;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 220px;
+    overflow: hidden;
+    padding-top: 19px;
+    position: relative;
+    width: 100%
+}
+
+#headerTopoPortal #categoriasDiv .bannerDescription {
+    color: #444;
+    font-size: 20px;
+    margin-top: 5px
+}
+
+#headerTopoPortal #categoriasDiv > div {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+    #headerTopoPortal #categoriasDiv > div > h1 {
+        color: #f1625b;
+        font-size: 34px
+    }
+
+@media(min-width:768px) {
+    #categoriasDiv > div > nav {
+        display: inline-block;
+        width: 50%
+    }
+}
+
+#headerTopoPortal #categoriasDivInst .bannerDescription {
+    color: #444;
+    font-size: 20px;
+    margin-top: 5px
+}
+
+#headerTopoPortal #categoriasDivInst > div {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+    #headerTopoPortal #categoriasDivInst > div > h1 {
+        color: #f1625b;
+        font-size: 34px
+    }
+
+@media(min-width:768px) {
+    #categoriasDivInst > div > nav {
+        display: inline-block;
+        width: 50%
+    }
+}
+
+#headerTopoPortal #chatNavBarBox .chatBody {
+    border: 1px solid #dedede;
+    height: 100% !important;
+    min-height: 420px;
+    width: 100%
+}
+
+#headerTopoPortal #chatNavBarBox .modal-css-content {
+    min-height: 450px
+}
+
+#headerTopoPortal #loginNavBarBox .loginBody {
+    padding: 15px 25px;
+    text-align: center
+}
+
+    #headerTopoPortal #loginNavBarBox .loginBody > span {
+        color: #555;
+        display: inline-block;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 15px 0
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > label {
+        background-color: #dfdfdf;
+        border-radius: 100%;
+        height: 25px;
+        margin: 0;
+        padding: 3px;
+        position: absolute;
+        right: 5px;
+        text-align: center;
+        top: 5px;
+        width: 25px
+    }
+
+#headerTopoPortal #chatNavBarBox .modal-css-content > label {
+    background-color: #dfdfdf;
+    border-radius: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    width: 25px
+}
+
+#headerTopoPortal #loginNavBarBox .loginBody > form {
+    font-size: 18px;
+    height: 330px;
+    transition-duration: .4s;
+    transition-property: height;
+    transition-timing-function: ease
+}
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > a {
+        font-size: 14px;
+        padding: 10px 0
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > .form-group {
+        margin-bottom: 10px
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > input[type="submit"] {
+        background-color: #1f80de;
+        border: medium none;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 9px 85px
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > .checkbox > label {
+        font-size: 13px;
+        font-weight: 400
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > .checkbox input[type="checkbox"] {
+        margin: -3px 4px 0;
+        vertical-align: middle
+    }
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form .form-control {
+        border-radius: 0;
+        font-size: 14px;
+        height: auto;
+        padding: 10px
+    }
+
+#headerTopoPortal #loginNavBarBox .loginFooter {
+    background-color: #eee;
+    bottom: 0;
+    left: 0;
+    min-height: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    transition-duration: .4s;
+    transition-property: min-height,padding;
+    transition-timing-function: ease;
+    width: 100%
+}
+
+    #headerTopoPortal #loginNavBarBox .loginFooter a {
+        font-size: 16px;
+        text-decoration: underline
+    }
+
+#headerTopoPortal #loginNavBarBox .loginFooter {
+    padding: 20px 0
+}
+
+#headerTopoPortal #loginNavBarBox .loginBody > form > a.facebookLoginButton {
+    background-color: #2e589b;
+    border: medium none;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+    text-decoration: none
+}
+
+    #headerTopoPortal #loginNavBarBox .loginBody > form > a.facebookLoginButton::before {
+        background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png);
+        background-position: -173px -431px;
+        background-repeat: no-repeat;
+        content: "";
+        display: inline-block;
+        height: 50px;
+        left: 3px;
+        position: absolute;
+        top: 3px;
+        vertical-align: bottom;
+        width: 50px
+    }
+
+#headerTopoPortal .alert-facebook {
+    color: red;
+    display: none;
+    opacity: 0;
+    transition-duration: .4s;
+    transition-property: opacity;
+    transition-timing-function: ease
+}
+
+#headerTopoPortal h1 {
+    font-size: 20px;
+    margin: 0
+}
+
+#headerTopoPortal span.espaco {
+    display: inline-block
+}
+
+#headerTopoPortal .precoDe {
+    display: inline-block;
+    position: relative;
+    text-decoration: line-through
+}
+
+#headerTopoPortal .espaco.e-5 {
+    width: 5px
+}
+
+#headerTopoPortal .espaco.e-10 {
+    width: 10px
+}
+
+#headerTopoPortal h2 span, h2 span > a, h2 span:hover, h2 span > a:hover, h3 span, h3 span > a, h3 span:hover, h3 span > a:hover {
+    color: #ba2626;
+    font-size: 16px;
+    margin-left: 20px
+}
+
+#headerTopoPortal .withoutButtonSelectBox > span {
+    z-index: 0
+}
+
+#headerTopoPortal .withoutButtonSelectBox > select {
+    background-color: transparent;
+    position: relative;
+    z-index: 1
+}
+
+#headerTopoPortal select.without-button {
+    background: transparent none repeat scroll 0 0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    z-index: 2
+}
+
+#headerTopoPortal .breadCrumb ul li:not(:last-child)::after {
+    background-color: #fff;
+    content: "";
+    font-family: "Glyphicons Halflings";
+    margin: 0 5px;
+    vertical-align: top
+}
+
+#headerTopoPortal .breadCrumb {
+    color: #747474;
+    display: inline-flex;
+    float: left;
+    width: auto;
+    line-height: 40px;
+    padding: 15px 0
+}
+
+    #headerTopoPortal .breadCrumb > ul > li > a:hover {
+        color: red
+    }
+
+    #headerTopoPortal .breadCrumb a {
+        color: inherit;
+        text-decoration: none !important
+    }
+
+@media(max-width:991px) {
+    .breadCrumb {
+        overflow: hidden;
+        width: 100%
+    }
+}
+
+#headerTopoPortal .breadCrumb .breadCrumbBack {
+    color: #b52227;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+    width: 100%
+}
+
+#headerTopoPortal .navbar {
+    background-color: #fff;
+    color: #33485b
+}
+
+#headerTopoPortal .navbar-nav > li > label {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -11px;
+    padding: 15px
+}
+
+#headerTopoPortal header {
+    background-color: #fff;
+    height: 70px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050
+}
+
+    #headerTopoPortal header .navbar:first-child {
+        padding: 5px 0 0
+    }
+
+    #headerTopoPortal header #buttonNavToggleRight .glyphicon {
+        display: none
+    }
+
+    #headerTopoPortal header #socialsTags > li {
+        padding: 5px 0
+    }
+
+    #headerTopoPortal header #socialsTags .img-sprite:hover {
+        filter: saturate(300%)
+    }
+
+    #headerTopoPortal header > .navbar {
+        max-height: 65px
+    }
+
+@media(max-height:370px) {
+    #navbar-categorias {
+        background-color: #fff;
+        height: calc(100% - 70px);
+        overflow-y: scroll;
+        position: fixed;
+        width: 100%
+    }
+
+    #headerTopoPortal #navbar-categorias-check.colapse-check:checked + .collapse-target {
+        display: block;
+        opacity: 1;
+        padding: 15px
+    }
+}
+
+@media(max-width:992px) {
+    header .navbar-fixed-top:last-child {
+        box-shadow: 0 0 5px #777
+    }
+}
+
+#headerTopoPortal .animaLabelOn {
+    transform: rotate(90deg);
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease
+}
+
+#headerTopoPortal .animaLabelOff {
+    transform: rotate(0deg);
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease
+}
+
+@keyframes setaLabel {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+@keyframes setaLabel {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+#headerTopoPortal #dropDownAjudaNavBarBox:checked ~ #ajudaNavBarBox {
+    height: 200px;
+    opacity: 1;
+    padding: 10px 5px;
+    top: calc(100% - 1px)
+}
+
+#headerTopoPortal #dropDownAjudaNavBarBox:checked + label {
+    background-color: #fff !important;
+    border-color: rgba(100,100,100,.4) rgba(100,100,100,.4) #fff !important;
+    border-style: solid !important;
+    border-width: 1px 1px 2px !important;
+    color: inherit !important;
+    position: relative;
+    z-index: 1
+}
+
+#headerTopoPortal .colapse-check {
+    display: none
+}
+
+#headerTopoPortal .search-form .form-group {
+    width: 100%
+}
+
+#headerTopoPortal .search-form > .form-group > .form-control {
+    background-color: #e0e0e0;
+    border-color: #d4d4d4;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    width: 100%
+}
+
+    #headerTopoPortal .search-form > .form-group > .form-control:focus {
+        box-shadow: 0 1px 1px rgba(0,0,0,.075) inset,0 0 4px rgba(189,34,34,.6)
+    }
+
+#headerTopoPortal .btn-hidden-search {
+    padding-top: 15px
+}
+
+#headerTopoPortal .search-form .form-group:focus {
+    display: none
+}
+
+#headerTopoPortal .search-form > .form-group > .glyphicon {
+    color: #bd2222;
+    z-index: 0
+}
+
+#headerTopoPortal .simple-list-table {
+    display: table;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+#headerTopoPortal .half-width {
+    width: 50% !important
+}
+
+#headerTopoPortal .full-width {
+    width: 100% !important
+}
+
+#headerTopoPortal .full-height {
+    height: 100% !important
+}
+
+#headerTopoPortal .simple-list-table > li {
+    display: table-cell
+}
+
+#headerTopoPortal .simple-list-table.mid > li {
+    vertical-align: middle
+}
+
+#headerTopoPortal .simple-list-inline, .simple-list-inline-table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+#headerTopoPortal .simple-list {
+    list-style-type: none;
+    padding: 0
+}
+
+#headerTopoPortal .simple-list-inline > li {
+    display: inline-block
+}
+
+#headerTopoPortal .simple-list-inline-table > li {
+    display: inline-table
+}
+
+#headerTopoPortal main .contentSection-white:nth-child(2n+1) ul.customList > li::before, main .contentSection:nth-of-type(2n) ul.customList > li::before {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/listDecoration.png)
+}
+
+#headerTopoPortal main .contentSection-white:nth-child(2n) ul.customList > li::before, main .contentSection:nth-of-type(2n+1) ul.customList > li::before {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/listDecorationGrey.png)
+}
+
+#headerTopoPortal ul.customList > li::before {
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    height: 35px;
+    margin-left: -60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px
+}
+
+#headerTopoPortal ul.customList > li {
+    display: inline-block;
+    margin: 15px 0;
+    padding-left: 60px;
+    position: relative;
+    width: 100%
+}
+
+#headerTopoPortal .nav-categorias {
+    background-color: #fff;
+    box-shadow: 0 0 5px #aaa;
+    display: flex !important;
+    margin: auto;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 1
+}
+
+    #headerTopoPortal .nav-categorias .nav {
+        margin: auto
+    }
+
+#headerTopoPortal .no-padding-right {
+    padding-right: 0
+}
+
+#headerTopoPortal #ajudaNavBarBox {
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 0 0 2px #a0a0a0;
+    color: #777;
+    display: block;
+    height: 0;
+    left: 50%;
+    min-width: 290px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: calc(100% + 1px);
+    transform: translateX(-50%);
+    transition-duration: .4s;
+    transition-property: padding,height,opacity;
+    transition-timing-function: ease
+}
+
+    #headerTopoPortal #ajudaNavBarBox > span {
+        color: #303030;
+        font-size: 20px
+    }
+
+        #headerTopoPortal #ajudaNavBarBox > span.secundary-tittle {
+            font-size: 16px
+        }
+
+    #headerTopoPortal #ajudaNavBarBox ul {
+        line-height: 1.8;
+        list-style: outside none none;
+        padding: 10px 0
+    }
+
+        #headerTopoPortal #ajudaNavBarBox ul a {
+            color: inherit;
+            width: 100%
+        }
+
+        #headerTopoPortal #ajudaNavBarBox ul li:hover {
+            background-color: #eee
+        }
+
+        #headerTopoPortal #ajudaNavBarBox ul a:hover {
+            text-decoration: none
+        }
+
+#headerTopoPortal #areaAlunoThumb::before {
+    background-color: rgba(0,0,0,0);
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png);
+    background-position: -3px -503px;
+    content: " ";
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-top: 4px;
+    width: 25px
+}
+
+#headerTopoPortal #navbar .navbar-nav > li > span:hover #areaAlunoThumb::before {
+    background-position: -38px -503px
+}
+
+#headerTopoPortal #areaAlunoThumb {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 20px;
+    line-height: 30px;
+    margin: 9px 10px 0 0;
+    vertical-align: text-top;
+    width: 116px
+}
+
+#headerTopoPortal .social-header #areaAlunoThumb {
+    margin-top: -1px
+}
+
+@media(min-width:992px) {
+    #navbar form {
+    }
+}
+
+@media(min-width:576px)and (max-width:991px) {
+    #navbar {
+        height: 80px;
+        left: 150px;
+        opacity: 1;
+        top: -70px;
+        width: calc(100% - 260px)
+    }
+
+    #headerTopoPortal .navbar-header .navbar-toggle-search {
+        display: none
+    }
+
+    #headerTopoPortal #navbar .btn-hidden-search {
+        display: none
+    }
+
+    #headerTopoPortal header .navbar-fixed-top > .container {
+        height: 60px
+    }
+
+    #headerTopoPortal #navbar .glyphicon-search {
+        display: inline-block !important
+    }
+}
+
+@media(max-width:300px) {
+    header #headerLogo {
+        padding: 0 !important
+    }
+}
+
+@media(max-width:992px)and (min-width:350px) {
+    header #headerLogo {
+        padding: 0 15px
+    }
+}
+
+@media(max-width:992px)and (min-height:370px) {
+    #navbar-categorias-check.colapse-check:checked + .collapse-target {
+        display: block;
+        height: 398px;
+        opacity: 1;
+        padding: 15px
+    }
+}
+
+@media(max-width:991px) {
+    #navbar-categorias {
+        box-shadow: 0 0 5px #777;
+        padding-top: 5px !important
+    }
+
+    #headerTopoPortal #navbar-categorias-check:checked + .collapse-target li {
+        border-top: 1px solid #ddd;
+        display: inline-block;
+        width: 100%
+    }
+
+    #headerTopoPortal #navbarCheckColapse.colapse-check:checked + .collapse-target li a, #navbar-categorias-check:checked + .collapse-target li a {
+        padding-bottom: 15px !important;
+        padding-top: 10px !important
+    }
+
+    #headerTopoPortal #navbarCheckColapseSearch.colapse-check:checked ~ .collapse-target {
+        background-color: #f2f2f2;
+        border-bottom: 2px solid rgba(190,190,190,.1);
+        display: block;
+        height: 120px;
+        margin: 0 -15px;
+        opacity: 1;
+        padding: 15px;
+        width: auto
+    }
+
+    #headerTopoPortal .collapsing-custom {
+        display: none;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0 !important;
+        position: relative;
+        transition-duration: .4s;
+        transition-property: height,visibility,padding,opacity;
+        transition-timing-function: ease;
+        -webkit-transition: display .1s;
+        transition: display .1s;
+        width: 100%
+    }
+
+    #headerTopoPortal .navbar-header {
+    }
+
+    #headerTopoPortal .search-form > .form-group > .form-control {
+        border-width: 1px;
+        text-align: center
+    }
+
+        #headerTopoPortal .search-form > .form-group > .form-control:focus {
+            text-align: left
+        }
+
+            #headerTopoPortal .search-form > .form-group > .form-control:focus:-moz-placeholder {
+                color: transparent
+            }
+
+            #headerTopoPortal .search-form > .form-group > .form-control:focus::-moz-placeholder {
+                color: transparent
+            }
+}
+
+#headerTopoPortal a.redLink {
+    color: #dd4748
+}
+
+    #headerTopoPortal a.redLink:hover {
+        color: #bd2222;
+        cursor: pointer
+    }
+
+#headerTopoPortal .btn-dark-blue {
+    background-color: #34495c !important;
+    border: medium none;
+    color: #fff !important;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-decoration: none !important
+}
+
+    #headerTopoPortal .btn-dark-blue.hovered:hover {
+        background-color: #eee !important;
+        border: 2px solid #34495c;
+        color: #34495c !important;
+        font-weight: bold;
+        padding: 5px 13px
+    }
+
+#headerTopoPortal .btn-dark-blue-n {
+    background-color: #dcdedd;
+    border: medium none;
+    color: #34495c;
+    font-size: 16px;
+    padding: 5px 15px
+}
+
+#headerTopoPortal .btn-dark-blue-bordered {
+    background-color: transparent;
+    border: 2px solid #34495c;
+    color: #34495c;
+    font-size: 16px;
+    padding: 5px 15px
+}
+
+    #headerTopoPortal .btn-dark-blue-bordered.hovered:hover {
+        background-color: #34495c;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px 15px
+    }
+
+#headerTopoPortal .btn-grey {
+    background-color: #80888b;
+    border: medium none;
+    color: #fff;
+    padding: 10px 0
+}
+
+    #headerTopoPortal .btn-grey.hovered:hover {
+        background-color: #eee;
+        border: 2px solid #80888b;
+        color: #80888b;
+        font-weight: bold
+    }
+
+#headerTopoPortal .btn-grey-inverse {
+    background-color: #eee;
+    border: 2px solid #80888b;
+    color: #80888b;
+    font-weight: bold
+}
+
+#headerTopoPortal .btn-light-green {
+    background-color: #02a963;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 20px
+}
+
+    #headerTopoPortal .btn-light-green.hovered:hover {
+        background-color: #fff;
+        border: 2px solid #02a963;
+        color: #02a963
+    }
+
+#headerTopoPortal .btn-light-blue {
+    background-color: #1f81dc;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 20px
+}
+
+    #headerTopoPortal .btn-light-blue.hovered:hover {
+        background-color: #fff;
+        border: 2px solid #1f81dc;
+        color: #1f81dc
+    }
+
+#headerTopoPortal .btn-red {
+    background-color: transparent;
+    border: 2px solid #ba2626;
+    border-radius: 0;
+    color: #ba2626 !important;
+    padding: 6px 20px
+}
+
+    #headerTopoPortal .btn-red:hover {
+        background-color: #ba2626 !important;
+        color: #fff !important
+    }
+
+#headerTopoPortal .btn {
+    cursor: pointer
+}
+
+#headerTopoPortal .btn-medium {
+    padding: 6px 40px
+}
+
+    #headerTopoPortal .btn-medium.hovered:hover {
+        padding: 4px 38px
+    }
+
+#headerTopoPortal .btn-small.hovered:hover {
+    padding-top: 3px;
+    padding-bottom: 3px
+}
+
+#headerTopoPortal .btn-big {
+    padding: 10px 50px
+}
+
+#headerTopoPortal .btn-h-big {
+    padding: 10px 0
+}
+
+    #headerTopoPortal .btn-h-big:hover {
+        padding: 8px 0
+    }
+
+#headerTopoPortal .btn-big.hovered:hover {
+    padding: 8px 48px
+}
+
+#headerTopoPortal a.btn-red:hover {
+    color: #ba2626 !important;
+    cursor: pointer !important;
+    text-decoration: none
+}
+
+#headerTopoPortal a.btn-red.hovered:hover {
+    color: #fff !important;
+    cursor: pointer !important;
+    text-decoration: none
+}
+
+#headerTopoPortal .btn-black {
+    background-color: #333;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    padding: 6px 20px
+}
+
+    #headerTopoPortal .btn-black:hover:not(.custom-hover) {
+        background-color: #ba2626
+    }
+
+#headerTopoPortal .breakLine {
+    border: 1px solid #ccc;
+    margin: 30px 0
+}
+
+#headerTopoPortal .break-line-1 {
+    margin: 0 0 5px
+}
+
+#headerTopoPortal .form-default {
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding: 6px 10px;
+    width: 100%
+}
+
+#headerTopoPortal .contentTable .panel-body {
+    max-height: 500px;
+    overflow: auto
+}
+
+#headerTopoPortal main .contentSection:nth-of-type(2n) {
+    background-color: #fff
+}
+
+#headerTopoPortal main .contentSection:nth-of-type(2n+1) {
+    background-color: #eee
+}
+
+#headerTopoPortal main .contentSection-white:nth-of-type(2n+1) {
+    background-color: #fff
+}
+
+#headerTopoPortal .contentSection-white:nth-of-type(2n) {
+    background-color: #eee
+}
+
+#headerTopoPortal #sectionDepoimentos {
+    padding: 20px 0 15px
+}
+
+#headerTopoPortal .ratingStars {
+    bottom: 0;
+    left: 35%;
+    padding: 15px 0
+}
+
+    #headerTopoPortal .ratingStars .legendStars {
+        color: #888
+    }
+
+#headerTopoPortal .ratingStarsMain {
+    color: #767676;
+    font-size: 18px
+}
+
+    #headerTopoPortal .ratingStarsMain .labelRating {
+        color: #767676;
+        font-weight: 400;
+        margin-left: 20px
+    }
+
+#headerTopoPortal .rating-10 > span:first-child, .rating-15 > span:first-child {
+    color: #f1bd19
+}
+
+#headerTopoPortal .rating-20 > span:nth-child(-n+2), .rating-25 > span:nth-child(-n+2) {
+    color: #f1bd19
+}
+
+#headerTopoPortal .rating-30 > span:nth-child(-n+3), .rating-35 > span:nth-child(-n+3) {
+    color: #f1bd19
+}
+
+#headerTopoPortal .rating-40 > span:nth-child(-n+4), .rating-45 > span:nth-child(-n+4) {
+    color: #f1bd19
+}
+
+#headerTopoPortal .rating-50 > span:nth-child(-n+5) {
+    color: #f1bd19
+}
+
+#headerTopoPortal .rating-45 > span:nth-child(5), .rating-35 > span:nth-child(4), .rating-25 > span:nth-child(3), .rating-15 > span:nth-child(2), .rating-05 > span:nth-child(1) {
+    background: #f1bd19;
+    background: -moz-linear-gradient(left,rgba(241,189,25,1) 0%,rgba(241,189,25,1) 50%,rgba(122,122,122,1) 51%,rgba(122,122,122,1) 100%);
+    background: -webkit-linear-gradient(left,rgba(241,189,25,1) 0%,rgba(241,189,25,1) 50%,rgba(122,122,122,1) 51%,rgba(122,122,122,1) 100%);
+    background: linear-gradient(to right,rgba(241,189,25,1) 0%,rgba(241,189,25,1) 50%,rgba(122,122,122,1) 51%,rgba(122,122,122,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1bd19',endColorstr='#7A7A7A',GradientType=1)
+}
+
+#headerTopoPortal .depHeader {
+    color: #323232;
+    float: left;
+    padding: 0 10px 5px;
+    position: relative;
+    text-align: center;
+    width: 35%
+}
+
+    #headerTopoPortal .depHeader .review-avatar {
+        display: block;
+        padding: 15px 0;
+        width: 100%
+    }
+
+        #headerTopoPortal .depHeader .review-avatar img {
+            border-radius: 100%
+        }
+
+#headerTopoPortal .depBody {
+    color: #767676;
+    line-height: 1.2;
+    padding-bottom: 40px;
+    position: relative
+}
+
+#headerTopoPortal .footerTitle {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    padding: 5px 0
+}
+
+#headerTopoPortal .img-sprite {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-mini.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+    #headerTopoPortal .img-sprite.sprite-hub-card-list {
+        background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/sprite-home.png)
+    }
+
+#headerTopoPortal .pgto {
+    color: #fff
+}
+
+    #headerTopoPortal .pgto .footerTitle {
+        margin-top: 20px
+    }
+
+    #headerTopoPortal .pgto > table tr:first-child td {
+        padding-top: 7px
+    }
+
+    #headerTopoPortal .pgto > table tr:last-child td {
+        padding-bottom: 7px
+    }
+
+    #headerTopoPortal .pgto table {
+        width: 100%
+    }
+
+#headerTopoPortal .sprite-uol-educacao {
+    background-position: 0 -1078px;
+    height: 40px;
+    margin: 0;
+    width: 220px
+}
+
+#headerTopoPortal .sprite-portal-educacao {
+    background-position: -2px -285px;
+    height: 40px;
+    margin: 0;
+    width: 70px
+}
+
+#headerTopoPortal .sprite-uol-cursos {
+    background-position: -2px -320px;
+    height: 40px;
+    margin: 0;
+    width: 116px
+}
+
+#headerTopoPortal .sprite-ciatech {
+    background-position: -2px -353px;
+    height: 40px;
+    margin: 0;
+    width: 97px
+}
+
+#headerTopoPortal .sprite-cresca-brasil {
+    background-position: -2px -425px;
+    height: 40px;
+    margin: 0;
+    width: 111px
+}
+
+#headerTopoPortal .sprite-concurso-virtual {
+    background-position: -2px -389px;
+    height: 40px;
+    margin: 0;
+    width: 80px
+}
+
+#headerTopoPortal .sprite-casa-do-concurseiro {
+    background-position: -2px -460px;
+    height: 40px;
+    margin: 0;
+    width: 60px
+}
+
+#headerTopoPortal .sprite-thumb-visa {
+    background-position: -62px -5px;
+    height: 15px;
+    margin: 0;
+    width: 40px
+}
+
+#headerTopoPortal .sprite-thumb-visa-electron {
+    background-position: -62px -212px;
+    height: 15px;
+    margin: 0;
+    width: 26px
+}
+
+#headerTopoPortal .sprite-thumb-master {
+    background-position: -62px -29px;
+    height: 15px;
+    margin: 0;
+    width: 26px
+}
+
+#headerTopoPortal .sprite-thumb-boleto {
+    background-position: -60px -54px;
+    height: 20px;
+    margin: 0;
+    width: 50px
+}
+
+#headerTopoPortal .sprite-thumb-pagseguro {
+    background-position: -62px -793px;
+    height: 15px;
+    margin: 0;
+    width: 80px
+}
+
+#headerTopoPortal .pgto .pagseguroTb .sprite-thumb-pagseguro {
+    background-position: -58px -84px;
+    width: 90px
+}
+
+#headerTopoPortal .sprite-thumb-amex {
+    background-position: -62px -111px;
+    height: 16px;
+    margin: 0;
+    width: 17px
+}
+
+#headerTopoPortal .sprite-thumb-hipercard {
+    background-position: -62px -137px;
+    height: 15px;
+    margin: 0;
+    width: 32px
+}
+
+#headerTopoPortal .sprite-thumb-dinner {
+    background-position: -62px -162px;
+    height: 15px;
+    margin: 0;
+    width: 59px
+}
+
+#headerTopoPortal .sprite-thumb-aura {
+    background-position: -62px -187px;
+    height: 15px;
+    margin: 0;
+    width: 24px
+}
+
+#headerTopoPortal .sprite-thumb-hsbc {
+    background-position: -173px -12px;
+    height: 15px;
+    margin: 0;
+    width: 32px
+}
+
+#headerTopoPortal .sprite-thumb-personal {
+    background-position: -173px -37px;
+    height: 15px;
+    margin: 0;
+    width: 31px
+}
+
+#headerTopoPortal .sprite-thumb-itaú {
+    background-position: -173px -62px;
+    height: 15px;
+    margin: 0;
+    width: 15px
+}
+
+#headerTopoPortal .sprite-thumb-bradesco {
+    background-position: -173px -87px;
+    height: 15px;
+    margin: 0;
+    width: 15px
+}
+
+#headerTopoPortal .sprite-thumb-elo {
+    background-position: -173px -111px;
+    height: 15px;
+    margin: 0;
+    width: 15px
+}
+
+#headerTopoPortal .sprite-header-logo {
+    height: 60px
+}
+
+#headerTopoPortal #headerLogo:hover, #headerLogo label:hover {
+    cursor: pointer
+}
+
+#headerTopoPortal #headerLogo a:hover {
+    text-decoration: none
+}
+
+#headerTopoPortal .sprite-header-logo:first-child {
+    background-position: -157px -289px;
+    margin: 0;
+    width: 130px
+}
+
+@media(min-width:1281px) {
+    .intro {
+        margin-top: 104px
+    }
+}
+
+@media(min-width:996px)and (max-width:1280px) {
+    .intro {
+        margin-top: 104px
+    }
+}
+
+@media(max-width:995px) {
+    .intro {
+        margin-top: 50px
+    }
+}
+
+#headerTopoPortal .intro {
+    min-height: 320px
+}
+
+    #headerTopoPortal .intro > div .searchBar {
+        display: inline-block;
+        width: 60%
+    }
+
+    #headerTopoPortal .intro .form-control {
+        border-radius: 4px;
+        height: auto;
+        padding: 10px 20px
+    }
+
+    #headerTopoPortal .intro .form-control-feedback {
+        background-color: #34495e;
+        border-radius: 0 4px 4px 0;
+        color: #fff;
+        height: 100%;
+        line-height: 40px;
+        width: 50px
+    }
+
+#headerTopoPortal .hubBlock {
+    display: flex;
+    margin-left: -5px;
+    width: calc(100% + 5px)
+}
+
+    #headerTopoPortal .hubBlock td > div, .hubBlock > ul > li > a > div {
+        height: 190px
+    }
+
+    #headerTopoPortal .hubBlock > ul > li {
+        margin-left: 5px;
+        width: calc(100%/6 - 8px)
+    }
+
+        #headerTopoPortal .hubBlock > ul > li > a {
+            width: 100%
+        }
+
+            #headerTopoPortal .hubBlock > ul > li > a:hover {
+                cursor: pointer !important;
+                opacity: .9
+            }
+
+            #headerTopoPortal .hubBlock > ul > li > a > div {
+                color: #fff;
+                float: left;
+                padding: 20px 10px;
+                position: relative;
+                text-align: center;
+                width: 100%
+            }
+
+                #headerTopoPortal .hubBlock > ul > li > a > div > h2 {
+                    display: block;
+                    font-size: 16px;
+                    margin-top: 10px
+                }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(1) div {
+            background-color: #d43348
+        }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(2) div {
+            background-color: #47b7d6
+        }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(3) div {
+            background-color: #eb6f42
+        }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(4) div {
+            background-color: #e3b81b
+        }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(5) div {
+            background-color: #2bc470
+        }
+
+        #headerTopoPortal .hubBlock > ul > li:nth-child(6) div {
+            background-color: #7e71c3
+        }
+
+    #headerTopoPortal .hubBlock figure {
+        bottom: 30px;
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        transform: translateX(-50%);
+        width: 150px
+    }
+
+#headerTopoPortal .menuHubBlock .qtd-cursos-small {
+    bottom: 10px;
+    font-size: 14px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%)
+}
+
+#headerTopoPortal .hubBlock > ul > li .sprite-hub-card-list {
+    cursor: pointer
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(1) .sprite-hub-card-list {
+    background-position: 0 0;
+    height: 80px;
+    width: 115px
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(2) .sprite-hub-card-list {
+    background-position: -7px -75px;
+    height: 100px;
+    width: 80px
+}
+
+@media(max-width:360px) {
+    .hubBlock > ul > li:nth-child(2) .sprite-hub-card-list {
+        height: 87px
+    }
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(3) .sprite-hub-card-list {
+    background-position: -9px -448px;
+    height: 97px;
+    width: 92px
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(4) .sprite-hub-card-list {
+    background-position: 34px -175px;
+    height: 80px;
+    width: 100%
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(5) .sprite-hub-card-list {
+    background-position: 27px -262px;
+    height: 80px;
+    width: 100%
+}
+
+#headerTopoPortal .hubBlock > ul > li:nth-child(6) .sprite-hub-card-list {
+    background-position: 14px -349px;
+    height: 100px;
+    width: 100%
+}
+
+#headerTopoPortal .hubBlock td {
+    border: medium none
+}
+
+#headerTopoPortal .hubBlock > tbody > tr > td, .hubBlock > tbody > tr > th, .hubBlock > tfoot > tr > td, .hubBlock > tfoot > tr > th, .hubBlock > thead > tr > td, .hubBlock > thead > tr > th {
+    border: medium none
+}
+
+#headerTopoPortal .hubWideCards .wideCard {
+    width: 30%
+}
+
+@media(max-width:1219px) {
+    .hubWideCards .wideCard a, .hubWideCards .wideCard div, .hubWideCards .wideCard figure {
+        height: 296px;
+        overflow: hidden;
+        width: 277px
+    }
+
+    #headerTopoPortal .hubWideCards .wideCard img {
+        height: 296px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: auto
+    }
+
+    #headerTopoPortal .hubWideCards .wideCard a, .hubWideCards .verticalCard > a {
+        position: relative;
+        top: 3px
+    }
+
+    #headerTopoPortal .hubWideCards .verticalCard a, .hubWideCards .verticalCard div, .hubWideCards .verticalCard figure {
+        overflow: hidden;
+        width: 178px !important
+    }
+
+    #headerTopoPortal .hubWideCards .verticalCard img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: auto
+    }
+
+    #headerTopoPortal .hubWideCards h2 {
+        font-size: 18px !important;
+        color: #777
+    }
+}
+
+#headerTopoPortal .hubWideCards .doubleCard {
+    width: 25%
+}
+
+    #headerTopoPortal .hubWideCards .doubleCard a {
+        height: 143px;
+        width: 100%
+    }
+
+        #headerTopoPortal .hubWideCards .doubleCard a:first-child {
+            margin-bottom: 10px
+        }
+
+    #headerTopoPortal .hubWideCards .doubleCard img {
+        height: 100%
+    }
+
+    #headerTopoPortal .hubWideCards .doubleCard a div, .hubWideCards .doubleCard a figure {
+        height: 100%
+    }
+
+#headerTopoPortal .hubWideCards .verticalCard {
+    width: 20%
+}
+
+#headerTopoPortal .verticalCard > a {
+    height: 296px;
+    width: 100%
+}
+
+#headerTopoPortal .hubWideCards .verticalCard a div, .hubWideCards .verticalCard a figure, .hubWideCards .verticalCard a figure img {
+    height: 100%;
+    width: 100%
+}
+
+#headerTopoPortal .hubWideCards {
+    padding-top: 35px
+}
+
+    #headerTopoPortal .hubWideCards figure img {
+        width: 100%
+    }
+
+    #headerTopoPortal .hubWideCards > table tbody div {
+        position: relative;
+        text-align: center
+    }
+
+    #headerTopoPortal .hubWideCards > table tbody tr div > h2 {
+        color: #555;
+        font-size: 22px;
+        margin: 0;
+        padding: 0 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%
+    }
+
+    #headerTopoPortal .hubWideCards > table tbody .doubleCard:last-child h2 {
+        color: #fff
+    }
+
+    #headerTopoPortal .hubWideCards > table tr td {
+        padding: 5px
+    }
+
+        #headerTopoPortal .hubWideCards > table tr td:first-child {
+            padding-left: 0
+        }
+
+        #headerTopoPortal .hubWideCards > table tr td:last-child {
+            padding-right: 0
+        }
+
+#headerTopoPortal #navbar .navbar-nav > li > a:focus:not(.hover-mobile), #navbar .navbar-nav > li > a:hover:not(.hover-mobile), #navbar .navbar-nav > li > label:hover:not(.hover-mobile) {
+    background-color: inherit;
+    border: medium none;
+    color: #e13b3f
+}
+
+#headerTopoPortal #navbar .navbar-nav > li > label:focus:not(.hover-mobile), #navbar .navbar-nav > li > label:hover:not(.hover-mobile), #navbar .navbar-nav > li > span:hover:not(.hover-mobile) {
+    color: #e13b3f
+}
+
+#headerTopoPortal .navbar-nav > li > a:focus:not(.hover-mobile), .navbar-nav > li > a:hover:not(.hover-mobile), #labelfordropDownLoginNavBarBox:active, #labelfordropDownLoginNavBarBox:hover {
+    border-bottom: 3px solid #e13b3f;
+    color: #e13b3f;
+    padding-bottom: 12px !important;
+    padding-top: 18px
+}
+
+#headerTopoPortal #labelfordropDownLoginNavBarBox {
+    padding-bottom: 12px !important;
+    padding-top: 20px;
+    width: 100%;
+    color: #e13b3f
+}
+
+@media(max-width:991px) {
+    .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+        border-bottom: 3px solid #e13b3f;
+        color: #e13b3f;
+        padding-bottom: 12px !important;
+        padding-top: 18px
+    }
+}
+
+#headerTopoPortal #navbar ul.nav.navbar-nav .img-sprite {
+    height: 30px;
+    width: 40px
+}
+
+#headerTopoPortal .navbar-nav > li > a, .navbar-nav > li > label {
+    color: #354a5f
+}
+
+#headerTopoPortal #navbar > ul.navbar-nav:not(.navbar-right)::before {
+    color: #898989;
+    content: "Central de Vendas";
+    margin-bottom: -5px;
+    margin-top: 5px;
+    padding-left: 26px;
+    position: relative
+}
+
+#headerTopoPortal #header-nav-vendas > li > a {
+    padding-bottom: 0;
+    padding-top: 5px
+}
+
+#headerTopoPortal .paragraphAddress {
+    color: #fff;
+    display: inline-block;
+    padding: 40px 0 10px;
+    text-align: center
+}
+
+#headerTopoPortal #boxConsultor {
+    bottom: 0;
+    display: flex;
+    min-width: 270px;
+    position: fixed;
+    left: 60px;
+    z-index: 1052
+}
+
+    #headerTopoPortal #boxConsultor .boxConsultorBody {
+        padding: 15px 25px;
+        text-align: center
+    }
+
+        #headerTopoPortal #boxConsultor .boxConsultorBody > span {
+            color: #555;
+            display: inline-block;
+            font-size: 20px;
+            margin: 20px 0 15px
+        }
+
+        #headerTopoPortal #boxConsultor .boxConsultorBody > label {
+            background-color: #dfdfdf;
+            border-radius: 100%;
+            height: 25px;
+            margin: 0;
+            padding: 3px;
+            position: absolute;
+            right: 5px;
+            text-align: center;
+            top: 5px;
+            width: 25px
+        }
+
+        #headerTopoPortal #boxConsultor .boxConsultorBody > form {
+            font-size: 18px
+        }
+
+            #headerTopoPortal #boxConsultor .boxConsultorBody > form > input[type="submit"] {
+                background-color: #1f80de;
+                border: medium none;
+                color: #fff;
+                font-size: 20px;
+                padding: 5px 25px
+            }
+
+            #headerTopoPortal #boxConsultor .boxConsultorBody > form .form-control {
+                border-radius: 0;
+                font-size: 14px;
+                height: auto;
+                padding: 10px
+            }
+
+    #headerTopoPortal #boxConsultor .collapse-target-box {
+        background-color: transparent;
+        bottom: 46px;
+        height: 0;
+        opacity: 0;
+        position: absolute;
+        right: 1px;
+        transition-duration: .4s;
+        transition-property: height,visibility,opacity;
+        transition-timing-function: ease;
+        width: 300px
+    }
+
+    #headerTopoPortal #boxConsultor .boxConsultorFooter {
+        background-color: #eee;
+        bottom: 0;
+        left: 0;
+        min-height: 0;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        transition-duration: .4s;
+        transition-property: min-height,padding;
+        transition-timing-function: ease;
+        width: 100%
+    }
+
+        #headerTopoPortal #boxConsultor .boxConsultorFooter a {
+            text-decoration: underline
+        }
+
+    #headerTopoPortal #boxConsultor .colapse-check:checked + .collapse-target-box {
+        background-color: #fff;
+        box-shadow: 0 0 2px #a0a0a0;
+        display: block;
+        height: 300px;
+        opacity: 1;
+        z-index: 0
+    }
+
+        #headerTopoPortal #boxConsultor .colapse-check:checked + .collapse-target-box .boxConsultorFooter {
+            min-height: 80px;
+            padding: 20px 0
+        }
+
+    #headerTopoPortal #boxConsultor > label[type="button"] {
+        background-color: #dd4748;
+        bottom: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 20px 10px 10px;
+        position: absolute;
+        right: 0;
+        z-index: 1
+    }
+
+#headerTopoPortal #fixedChatButton {
+    border: 1px solid rgba(32,53,72,.8);
+    bottom: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 9px 20px 9px 13px;
+    position: fixed;
+    left: 40px;
+    z-index: 1053
+}
+
+#headerTopoPortal #sectionCadastrarEmail .title {
+    color: #777;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0
+}
+
+#headerTopoPortal #sectionCadastrarEmail .form-inline .form-group:first-child {
+    padding: 0
+}
+
+#headerTopoPortal #sectionCadastrarEmail .form-inline .form-group:last-child {
+    padding-left: 5px
+}
+
+#headerTopoPortal #sectionSobre .title {
+    padding: 30px 0
+}
+
+#headerTopoPortal #sectionSobre .header {
+    color: #aaa;
+    float: left;
+    width: 40%
+}
+
+#headerTopoPortal #sectionSobre .body {
+    float: right;
+    width: 60%
+}
+
+    #headerTopoPortal #sectionSobre .body > table {
+        text-align: center;
+        width: 100%
+    }
+
+        #headerTopoPortal #sectionSobre .body > table .value, #sectionSobre .body > table .content {
+            display: inline-block;
+            width: 100%
+        }
+
+        #headerTopoPortal #sectionSobre .body > table .value {
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        #headerTopoPortal #sectionSobre .body > table .content {
+            color: #aaa;
+            font-size: 16px;
+            padding: 5px 0
+        }
+
+#headerTopoPortal .blocoDiferencial .contentBloco .blocoTexto {
+    float: left;
+    width: 470px
+}
+
+#headerTopoPortal .blocoDiferencial .contentBloco .blocoImg {
+    float: right
+}
+
+#headerTopoPortal .blocoDiferencial .blocoTexto tr td {
+    padding: 10px 0
+}
+
+    #headerTopoPortal .blocoDiferencial .blocoTexto tr td:last-child {
+        padding: 10px
+    }
+
+#headerTopoPortal .blocoDiferencial .blocoTexto tr:last-child td {
+    padding: 20px 0
+}
+
+#headerTopoPortal .blocoDiferencial .title {
+    padding-bottom: 20px
+}
+
+#headerTopoPortal h4.title {
+    color: #767676;
+    font-size: 22px;
+    margin-bottom: -10px
+}
+
+#headerTopoPortal .blocoTexto td {
+    font-size: 18px
+}
+
+#headerTopoPortal .input-text-default {
+    border-radius: 0;
+    font-size: 14px;
+    height: auto;
+    padding: 10px
+}
+
+#headerTopoPortal .area-1 .inherit-bg, .area-1.inherit-bg {
+    background-color: #d53149
+}
+
+#headerTopoPortal .area-2 .inherit-bg, .area-2.inherit-bg {
+    background-color: #45b7d9
+}
+
+#headerTopoPortal .area-3 .inherit-bg, .area-3.inherit-bg {
+    background-color: #f07240
+}
+
+#headerTopoPortal .area-4 .inherit-bg, .area-4.inherit-bg {
+    background-color: #e3b61b
+}
+
+#headerTopoPortal .area-5 .inherit-bg, .area-5.inherit-bg {
+    background-color: #2ac46e
+}
+
+#headerTopoPortal .area-6 .inherit-bg, .area-6.inherit-bg {
+    background-color: #6f63af
+}
+
+#headerTopoPortal .area-1 .inherit-color, .area-1.inherit-color {
+    color: #d53149
+}
+
+#headerTopoPortal .area-2 .inherit-color, .area-2.inherit-color {
+    color: #45b7d9
+}
+
+#headerTopoPortal .area-3 .inherit-color, .area-3.inherit-color {
+    color: #f07240
+}
+
+#headerTopoPortal .area-4 .inherit-color, .area-4.inherit-color {
+    color: #e3b61b
+}
+
+#headerTopoPortal .area-5 .inherit-color, .area-5.inherit-color {
+    color: #2ac46e
+}
+
+#headerTopoPortal .area-6 .inherit-color, .area-6.inherit-color {
+    color: #6f63af
+}
+
+#headerTopoPortal .area-1-bg, .area-1-bg-hover:hover {
+    background-color: #d53149
+}
+
+#headerTopoPortal .area-2-bg, .area-2-bg-hover:hover {
+    background-color: #45b7d9
+}
+
+#headerTopoPortal .area-3-bg, .area-3-bg-hover:hover {
+    background-color: #f07240
+}
+
+#headerTopoPortal .area-4-bg, .area-4-bg-hover:hover {
+    background-color: #e3b61b
+}
+
+#headerTopoPortal .area-5-bg, .area-5-bg-hover:hover {
+    background-color: #2ac46e
+}
+
+#headerTopoPortal .area-6-bg, .area-6-bg-hover:hover {
+    background-color: #6f63af
+}
+
+#headerTopoPortal .area-1-color, .HC-1 .area-inherit-color {
+    color: #d53149 !important
+}
+
+#headerTopoPortal .area-2-color, .HC-2 .area-inherit-color {
+    color: #45b7d9 !important
+}
+
+#headerTopoPortal .area-3-color, .HC-3 .area-inherit-color {
+    color: #f07240 !important
+}
+
+#headerTopoPortal .area-4-color, .HC-4 .area-inherit-color {
+    color: #e3b61b !important
+}
+
+#headerTopoPortal .area-5-color, .HC-5 .area-inherit-color {
+    color: #2ac46e !important
+}
+
+#headerTopoPortal .area-6-color, .HC-6 .area-inherit-color {
+    color: #6f63af !important
+}
+
+#headerTopoPortal .area-1-border, .area-1 .inherit-border, .area-1.inherit-border {
+    border-color: #d53149 !important
+}
+
+#headerTopoPortal .area-2-border, .area-2 .inherit-border, .area-2.inherit-border {
+    border-color: #45b7d9 !important
+}
+
+#headerTopoPortal .area-3-border, .area-3 .inherit-border, .area-3.inherit-border {
+    border-color: #f07240 !important
+}
+
+#headerTopoPortal .area-4-border, .area-4 .inherit-border, .area-4.inherit-border {
+    border-color: #e3b61b !important
+}
+
+#headerTopoPortal .area-5-border, .area-5 .inherit-border, .area-5.inherit-border {
+    border-color: #2ac46e !important
+}
+
+#headerTopoPortal .area-6-border, .area-6 .inherit-border, .area-6.inherit-border {
+    border-color: #6f63af !important
+}
+
+#headerTopoPortal .area-1-border {
+    border-top: 5px solid #d53149 !important
+}
+
+#headerTopoPortal .area-2-border {
+    border-top: 5px solid #45b7d9 !important
+}
+
+#headerTopoPortal .area-3-border {
+    border-top: 5px solid #f07240 !important
+}
+
+#headerTopoPortal .area-4-border {
+    border-top: 5px solid #e3b61b !important
+}
+
+#headerTopoPortal .area-5-border {
+    border-top: 5px solid #2ac46e !important
+}
+
+#headerTopoPortal .area-6-border {
+    border-top: 5px solid #6f63af !important
+}
+
+#headerTopoPortal .area-1-border-color {
+    border-color: #d53149 !important
+}
+
+#headerTopoPortal .area-2-border-color {
+    border-color: #45b7d9 !important
+}
+
+#headerTopoPortal .area-3-border-color {
+    border-color: #f07240 !important
+}
+
+#headerTopoPortal .area-4-border-color {
+    border-color: #e3b61b !important
+}
+
+#headerTopoPortal .area-5-border-color {
+    border-color: #2ac46e !important
+}
+
+#headerTopoPortal .area-6-border-color {
+    border-color: #6f63af !important
+}
+
+#headerTopoPortal .adsbygoogle::after {
+    background-color: rgba(255,255,255,.1);
+    color: #d1d1d1;
+    content: "PUBLICIDADE";
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    height: 5px;
+    margin-bottom: 4px;
+    padding: 0
+}
+
+#headerTopoPortal .adsbygoogle {
+    margin-bottom: 30px
+}
+
+#headerTopoPortal .imagem-fundo-categoria {
+    background-image: url(http://localhost:52483/Content/Skins/Padrao/imagens/banner-quem-somos.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+#headerTopoPortal #categoriasDiv > div > h1#titulo-categoria {
+    color: #354a5f;
+    font-size: 34px
+}
+
+#headerTopoPortal #categoriasDivInst > div > h1#titulo-categoria {
+    color: #354a5f;
+    font-size: 34px
+}
+
+#headerTopoPortal .backtext-blog {
+    background-color: #fff;
+    opacity: .85;
+    padding: 30px 30px 20px 30px;
+    float: left
+}
+
+    #headerTopoPortal .backtext-blog h1 {
+        color: #f1625b;
+        font-size: 34px
+    }
+
+#headerTopoPortal #categoriasDiv .container > * {
+    background-color: rgba(240,240,240,.8);
+    max-width: 600px;
+    padding: 0 15px
+}
+
+    #headerTopoPortal #categoriasDiv .container > *:first-child {
+        padding-top: 5px
+    }
+
+    #headerTopoPortal #categoriasDiv .container > *:last-child {
+        margin-top: 0;
+        padding-top: 5px;
+        padding-bottom: 8px
+    }
+
+#headerTopoPortal .telefoneMobile {
+    display: none
+}
+
+@media(max-width:991px) {
+    .telefoneDesktop {
+        display: none
+    }
+
+    #headerTopoPortal .telefoneMobile {
+        display: inline-block
+    }
+}
+
+#headerTopoPortal .bloqueioBody {
+    margin: 20px 15px
+}
+
+    #headerTopoPortal .bloqueioBody strong {
+        color: #dc1c1c;
+        font-size: 24px
+    }
+
+    #headerTopoPortal .bloqueioBody span {
+        font-size: 22px
+    }
