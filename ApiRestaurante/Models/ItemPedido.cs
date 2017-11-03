@@ -19,5 +19,10 @@
         {
             pedido = p;
         }
+
+        public ItemPedido()
+        {
+            
+        }
     }
 }

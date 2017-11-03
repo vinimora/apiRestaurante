@@ -40,25 +40,25 @@
                 <div id="contentComida" class="tab-pane fade active in">
                     @if (comida.Any())
                     {
-                        foreach (Cardapio ca in comida)
-                        {
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Nome</th>
-                                        <th>Preço</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>@ca.id</td>
-                                        <td>@ca.nome</td>
-                                        <td>@ca.preco</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        }
+                        <table tipo="1" class="item-pedido table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nome</th>
+                                    <th>Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                           @foreach (Cardapio ca in comida)
+                            {
+                                        <tr item-id="@ca.id" tipo="1" class="produto">
+                                            <td campo="id">@ca.id</td>
+                                            <td campo="nome">@ca.nome</td>
+                                            <td campo="preco">@ca.preco</td>
+                                        </tr>
+                            }
+                            </tbody>
+                        </table>
                     }
                     else
                     {
@@ -68,25 +68,25 @@
                 <div id="contentBebida" class="tab-pane fade">
                     @if (bebida.Any())
                     {
-                        foreach (Cardapio ca in bebida)
-                        {
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Nome</th>
-                                        <th>Preço</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>@ca.id</td>
-                                        <td>@ca.nome</td>
-                                        <td>@ca.preco</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        }
+                        <table tipo="2" class="item-pedido table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nome</th>
+                                    <th>Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (Cardapio ca in bebida)
+                            {
+                                <tr item-id="@ca.id" tipo="2" class="produto">
+                                    <td campo="id">@ca.id</td>
+                                    <td campo="nome">@ca.nome</td>
+                                    <td campo="preco">@ca.preco</td>
+                                </tr>
+                            }
+                            </tbody>
+                        </table>
                     }
                     else
                     {
@@ -97,9 +97,7 @@
                     @{
                         if (sobremesa.Any())
                         {
-                            foreach (Cardapio ca in sobremesa)
-                            {
-                                <table class="table table-hover">
+                                <table tipo="3" class="item-pedido table table-hover">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
@@ -108,14 +106,16 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>@ca.id</td>
-                                            <td>@ca.nome</td>
-                                            <td>@ca.preco</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            @foreach (Cardapio ca in sobremesa)
+                            {
+                                <tr item-id="@ca.id" tipo="3" class="produto">
+                                    <td campo="id">@ca.id</td>
+                                    <td campo="nome">@ca.nome</td>
+                                    <td campo="preco">@ca.preco</td>
+                                </tr>
                             }
+                            </tbody>
+                        </table>
                         }
                         else
                         {
@@ -124,12 +124,33 @@
                     }
                 </div>
             </div>
-            <br>
+            <hr/>
+            <h5>Itens do pedido</h5>
+            <table id="tabela-itens-pedido" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="" class="sem-itens">
+                        <td colspan="3" class="text-center">Sem Itens no pedido</td>
+                    </tr>
+                    <tr class="total-line" style="display:none;">
+                        <td colspan="2" class="text-right">Total(R$):</td>
+                        <td colspan="1" class="total">0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+
             Observações:
             <textarea name="txtObs" rows="2" cols="20" id="txtObs" class="form-control"></textarea>
             <br>
             <center>
-                <input type="submit" name="btnFinalizar" value="Finalizar" id="btnFinalizar" class=" btn btn-danger" style="width:80%">
+                <input type="button" onclick="inserirPedido();" name="btnFinalizar" value="Finalizar" id="btnFinalizar" class=" btn btn-danger" style="width:80%">
             </center>
         </div>
     </div>
