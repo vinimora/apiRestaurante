@@ -257,6 +257,7 @@
     <Content Include="Content\img\tabalato-logo-mini.png" />
     <Content Include="Content\img\tabalato-logo.png" />
     <Content Include="Content\video\bg-asian.mp4" />
+    <Content Include="Content\video\cardapio.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
