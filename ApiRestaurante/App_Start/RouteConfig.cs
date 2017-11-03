@@ -36,9 +36,15 @@ namespace ApiRestaurante
             );
 
             routes.MapRoute(
+                name: "APP",
+                url: "app/{action}",
+                defaults: new { controller = "App", action = "Index" }
+            );
+
+            routes.MapRoute(
                 name: "API",
                 url: "api/{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "{controller}", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

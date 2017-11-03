@@ -1,0 +1,136 @@
+﻿@using ApiRestaurante.Models
+@using RestauranteApi.Models
+
+@{
+    ViewBag.Layout = "~/Views/Shared/_App.cshtml";
+    Layout = "~/Views/Shared/_App.cshtml";
+
+    List<Cardapio> listCardapio = (List<Cardapio>)ViewBag.Cardapio;
+
+    List<Cardapio> comida = listCardapio.Where(c => c.tipo != null && c.tipo.id == 1).ToList();
+    List<Cardapio> bebida = listCardapio.Where(c => c.tipo != null && c.tipo.id == 2).ToList();
+    List<Cardapio> sobremesa = listCardapio.Where(c => c.tipo != null && c.tipo.id == 3).ToList();
+}
+
+<form method="post" action="/app/SavePedido" id="form1">
+    <div>
+        <div style="margin-left: 15px; margin-right: 15px">
+            <center><h1 style="color:#d9534f">Pedido</h1></center>
+            <br>
+            <div class="form-group">
+                Selecione a Mesa:
+                <select size="1" name="slcMesa" id="slcMesa" placeholder="Escolha a Mesa" class="form-control">
+                    <option selected="selected" value="1">Mesa 01</option>
+                    <option value="2">Mesa 02</option>
+                    <option value="3">Mesa 03</option>
+                    <option value="4">Mesa 04</option>
+                    <option value="5">Mesa 05</option>
+                    <option value="6">Mesa 06</option>
+                    <option value="7">Mesa 07</option>
+                    <option value="8">Mesa 08</option>
+                    <option value="9">Mesa 09</option>
+                </select>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#contentComida" aria-expanded="true">Comida</a></li>
+                <li class=""><a data-toggle="tab" href="#contentBebida" aria-expanded="false">Bebida</a></li>
+                <li class=""><a data-toggle="tab" href="#contentSobremesa" aria-expanded="false">Sobremesa</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="contentComida" class="tab-pane fade active in">
+                    @if (comida.Any())
+                    {
+                        foreach (Cardapio ca in comida)
+                        {
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Preço</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@ca.id</td>
+                                        <td>@ca.nome</td>
+                                        <td>@ca.preco</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        }
+                    }
+                    else
+                    {
+                        <h5>Sem Comidas cadastradas.</h5>
+                    }
+                </div>
+                <div id="contentBebida" class="tab-pane fade">
+                    @if (bebida.Any())
+                    {
+                        foreach (Cardapio ca in bebida)
+                        {
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                        <th>Preço</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@ca.id</td>
+                                        <td>@ca.nome</td>
+                                        <td>@ca.preco</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        }
+                    }
+                    else
+                    {
+                        <h5>Sem Bebidas cadastradas.</h5>
+                    }
+                </div>
+                <div id="contentSobremesa" class="tab-pane fade">
+                    @{
+                        if (sobremesa.Any())
+                        {
+                            foreach (Cardapio ca in sobremesa)
+                            {
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Nome</th>
+                                            <th>Preço</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>@ca.id</td>
+                                            <td>@ca.nome</td>
+                                            <td>@ca.preco</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            }
+                        }
+                        else
+                        {
+                            <h5>Sem Sobremesa cadastradas.</h5>
+                        }
+                    }
+                </div>
+            </div>
+            <br>
+            Observações:
+            <textarea name="txtObs" rows="2" cols="20" id="txtObs" class="form-control"></textarea>
+            <br>
+            <center>
+                <input type="submit" name="btnFinalizar" value="Finalizar" id="btnFinalizar" class=" btn btn-danger" style="width:80%">
+            </center>
+        </div>
+    </div>
+</form>

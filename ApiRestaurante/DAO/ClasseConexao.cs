@@ -1,15 +1,11 @@
-Ôªø
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
-using System.Data;
 using Oracle.DataAccess.Client;
-//using Oracle.ManagedDataAccess.Client;
+using Oracle.DataAccess.Types;
+using System.Data;
 
-namespace ApiRestaurante.DAO
-{ 
 public class ClasseConexao
 {
     private static OracleConnection cn;
@@ -25,7 +21,7 @@ public class ClasseConexao
 
     private static string strConexaoOra = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=LOCALHOST)(PORT=1521)))(CONNECT_DATA=(SID=xe)));User ID=SYS ;Password=123456 ;DBA Privilege=SYSDBA;";
 
-    public ClasseConexao()
+    public static string Conexao()
     {
         string oradb = strConexaoOra;
         cn = new OracleConnection(oradb);
@@ -36,14 +32,14 @@ public class ClasseConexao
             if (cn.State == ConnectionState.Closed)
             {
                 cn.Open();
-                info = "Conectado com a Vers√£o Oracle." + cn.ServerVersion + " Utilizando a fonte " + cn.DataSource;
+                info = "Conectado com a Vers„o Oracle." + cn.ServerVersion + " Utilizando a fonte " + cn.DataSource;
             }
         }
         catch (OracleException ex)
         {
-            //return ex.Message;
+            return ex.Message;
         }
-        //return info + "Estado da Conex√£o: " + cn.State.ToString() + " Ok.";
+        return info + "Estado da Conex„o: " + cn.State.ToString() + " Ok.";
     }
 
     public static OracleConnection ConexaoBanco()
@@ -137,8 +133,15 @@ public class ClasseConexao
 
     public void ExecutarComando(string sqlComando)
     {
+        try
+        {
             OracleCommand cmd = new OracleCommand(sqlComando, cn);
             cmd.ExecuteNonQuery();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 
     public static void FinalizarConexao()
@@ -225,27 +228,28 @@ public class ClasseConexao
         }
     }
 
-    public OracleDataReader ExecutarComandoRetorno(string sqlComando)
+    public int ExecutarComandoRetorno(string sqlComando)
     {
-        //try
-        //{
-            //cmd = new OracleCommand();
-            //cmd.CommandText = sqlComando;
-            //cmd.CommandType = CommandType.Text;
-
-            cmd = new OracleCommand(sqlComando, ConexaoBanco());
+        try
+        {
+            cmd = new OracleCommand();
+            cmd.CommandText = sqlComando;
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cn;
+            cmd.ExecuteNonQuery();
+            cmd.CommandText = "Select @@Identity";
             dr = cmd.ExecuteReader();
             dr.Read();
-            return dr;
-        //}
-        //catch (OracleException exOra)
-        //{
-        //    throw exOra;
-        //}
-        //catch (Exception ex)
-        //{
-        //    throw ex;
-        //}
+            return Convert.ToInt32(dr[0]);
+        }
+        catch (OracleException exOra)
+        {
+            throw exOra;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 
     public DataSet RetornarDatasetParametro(string nomeProcedure, OracleParameter[] listaParametros)
@@ -373,5 +377,4 @@ public class ClasseConexao
     }
 
 
-}
 }

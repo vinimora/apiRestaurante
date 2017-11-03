@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestauranteApi.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,6 +8,12 @@ namespace ApiRestaurante.Models
 {
     public class SessaoSite
     {
+        public static Funcionario Funcionario
+        {
+            get { return System.Web.HttpContext.Current.Session["Funcionario"] == null ? null : (Funcionario)System.Web.HttpContext.Current.Session["Funcionario"]; }
+            set { System.Web.HttpContext.Current.Session["Funcionario"] = value; }
+        }
+
         public static List<string> Areas
         {
             get { return System.Web.HttpContext.Current.Session["Areas"] == null ? null : (List<string>)System.Web.HttpContext.Current.Session["Areas"]; }
