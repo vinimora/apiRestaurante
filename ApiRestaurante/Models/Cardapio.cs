@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Odbc;
-using ApiRestaurante.DAO;
+using ApiRestaurante.DAO1;
 using System.Globalization;
-using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
 using Newtonsoft.Json;
+using Oracle.DataAccess.Client;
 
 namespace RestauranteApi.Models
 {
@@ -52,11 +52,10 @@ namespace RestauranteApi.Models
             ClasseConexao c = new ClasseConexao();
             SQL = " select * from cardapio c inner join tipo_produtos tp on c.tipo = tp.ID_TIPO where c.ativo = 1 ";
 
-            OracleDataReader dr = c.ExecutarComandoRetorno(SQL);
+            OracleDataReader dr = c.RetornarDataReader(SQL);
 
             List<Cardapio> retorno = new List<Cardapio>();
-            if (dr.HasRows)
-            {
+            
                 //dr.GetName(1);
                 while (dr.Read())
                 {
@@ -80,7 +79,7 @@ namespace RestauranteApi.Models
                     retorno.Add(ca);
                     //dr.NextResult();
                 }
-            }
+            
 
             return retorno;
 
