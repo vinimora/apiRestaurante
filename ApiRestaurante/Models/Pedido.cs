@@ -52,10 +52,20 @@ namespace RestauranteApi.Models
             setData();
 
             SQL = " INSERT INTO sys.pedido(NUMERO_PEDIDO, numero_mesa, HORA_DATA_PEDIDO, STATUS_PEDIDO)" +
-            "VALUES(sequencePedidos.NEXTVAL,'" + mesa.id + "','" + data + "'," + status +")";
+            "VALUES(sequencePedidos.NEXTVAL,'" + mesa.id + "','" + data + "'," + (int)status +")";
             c.ExecutarComando(SQL);
-                
-           
+
+            int lastId = getSequence("sequencePedidos");
+
+            if(lastId > 0)
+            {
+                foreach (ItemPedido it in itens)
+                {
+                    SQL = "insert into itens_pedidos (id_prod_item, id_prod, numero_pedido, quantidade, ativo) values(secItensPedidos.nextval," + it.id + "," + lastId + "," + it.quantidade + ",1)";
+                    c.ExecutarComando(SQL);
+                }
+            }
+            
         }
         public void Incluir()
         {
@@ -86,6 +96,28 @@ namespace RestauranteApi.Models
             }
 
             return retorno;
+
+        }
+        //select sequencePedidos.CURRVAL from pedido
+        public int getSequence(string sequencia)
+        {
+            ClasseConexao c = new ClasseConexao();
+            SQL = "SELECT TO_CHAR(sys." + sequencia + ".nextval, 'TM9') as s FROM DUAL";
+
+            OracleDataReader dr = c.RetornarDataReader(SQL);
+
+            while (dr.Read())
+            {
+                int retorno = 0;
+                if (dr["s"] != null)
+                {
+                    retorno = int.Parse(dr["s"].ToString());
+                    retorno = retorno - 1;
+                }
+                return  retorno;
+            }
+
+            return 0;
 
         }
         public List<Pedido> getByMesa(int idmesa)

@@ -19,9 +19,10 @@ namespace ApiRestaurante.Controllers
 
             Cardapio cardapio = new Cardapio();
 
-            //List<Cardapio> listCardapio = cardapio.listar();
-            List<Cardapio> listCardapio = new List<Cardapio>();
+            List<Cardapio> listCardapio = cardapio.listar();
+            //List<Cardapio> listCardapio = new List<Cardapio>();
             //cardapio teste
+            /*
             listCardapio.Add(new Cardapio()
             {
                 id = 3,
@@ -46,6 +47,7 @@ namespace ApiRestaurante.Controllers
                 }
 
             });
+            */
             ViewBag.Cardapio = listCardapio;
 
             return View(Attr);
