@@ -31,6 +31,15 @@ namespace RestauranteApi.Models
             //mesa = new Mesa() { id = 1 };
             System.Web.HttpContext.Current.Session["sessionString"] = "string";
 
+            setData();
+        }
+
+        private void setData()
+        {
+            //inicia mesa teste
+            //mesa = new Mesa() { id = 1 };
+            System.Web.HttpContext.Current.Session["sessionString"] = "string";
+
             data = DateTime.Now.ToString("dd-MMM-yyyy hh:mm:ss", new CultureInfo("en-US"));
         }
         public void Incluir(int idmesa)
@@ -39,12 +48,21 @@ namespace RestauranteApi.Models
 
             // OracleConnection c = new OracleConnection();
             ClasseConexao c = new ClasseConexao();
+            //seta a data
+            setData();
 
             SQL = " INSERT INTO sys.pedido(NUMERO_PEDIDO, numero_mesa, HORA_DATA_PEDIDO, STATUS_PEDIDO)" +
             "VALUES(sequencePedidos.NEXTVAL,'" + mesa.id + "','" + data + "'," + status +")";
             c.ExecutarComando(SQL);
                 
            
+        }
+        public void Incluir()
+        {
+            if(mesa != null && mesa.id > 0)
+            {
+                Incluir(mesa.id);
+            }
         }
         public List<Pedido> listar()
         {
