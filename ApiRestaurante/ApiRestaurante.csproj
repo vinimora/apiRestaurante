@@ -228,6 +228,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Class1.cs" />
+    <Compile Include="Models\Contato.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\TipoProdutos.cs" />
     <Compile Include="Models\EStatus.cs" />
@@ -286,6 +287,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\fale-conosco.js" />
     <Content Include="Scripts\sobre-nos.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />

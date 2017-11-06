@@ -9,31 +9,38 @@
                 <br />
                 <hr />
                 <br />
-                <form>
+                <form id="formContato">
                     <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Nome</label>
                         <div class="col-9">
-                            <input class="form-control form-control-md" placeholder="Nome" type="text">
+                            <input class="form-control form-control-md NOME" placeholder="Nome" type="text">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Email</label>
                         <div class="col-9">
-                            <input class="form-control form-control-md" placeholder="email@email.com" type="email">
+                            <input class="form-control form-control-md EMAIL" placeholder="email@email.com" type="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-3 col-form-label">Telefone</label>
+                        <div class="col-9">
+                            <input class="form-control form-control-md TELEFONE" placeholder="Telefone" type="text">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="example-text-input" class="col-3 col-form-label">Mensagem</label>
                         <div class="col-9">
-                            <textarea class="form-control form-control-md" id="mensagem" placeholder="Digite aqui sua mensagem..." rows="3"></textarea>
+                            <input class="form-control form-control-md MENSAGEM" placeholder="Mensagem" type="text">
                         </div>
                     </div>
+
                     <br />
                     <hr />
                     <br />
                     <div class="form-group row">
                         <div class="col-12">
-                            <button type="button" class="btn btn-lg btn-outline-success form-control">ENVIAR MENSAGEM</button>
+                            <button type="button" class="btn btn-lg btn-outline-success form-control" onclick="inserirContato();">ENVIAR MENSAGEM</button>
                         </div>
                     </div>
                 </form>

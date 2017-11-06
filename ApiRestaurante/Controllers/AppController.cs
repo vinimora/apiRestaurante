@@ -74,5 +74,19 @@ namespace ApiRestaurante.Controllers
             }
             return true;
         }
+
+        public bool InserirContato(Contato contato)
+        {
+
+            if (contato == null)
+            {
+                return false;
+            }
+            else
+            {
+                contato.Incluir();
+            }
+            return true;
+        }
     }
 }

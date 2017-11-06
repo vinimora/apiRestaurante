@@ -32,7 +32,8 @@ namespace ApiRestaurante
             //fale-conosco
             bundles.Add(new ScriptBundle("~/bundles/fale-conosco").Include(
                 "~/Scripts/jquery-{version}.js",
-                "~/Scripts/bootstrap.js"
+                "~/Scripts/bootstrap.js",
+                "~/Scripts/fale-conosco.js"
             ));
 
             //sobre-nos
